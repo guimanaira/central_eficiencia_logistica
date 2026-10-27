@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Central de Controle de Eficiência Logística</title>
+    <link rel="stylesheet" href="assets/dashboard.css" />
+  </head>
+  <body>
+    <div class="dashboard-shell">
+      <header class="topbar">
+        <div class="brand">
+          <div class="brand-mark">CL</div>
+          <div>
+            <div class="subtitle">Operação Logística</div>
+            <h1>Central de Controle de Eficiência Logística</h1>
+          </div>
+        </div>
+
+        <div class="toolbar">
+          <span class="pill">Período: Jan a Dez 2026</span>
+          <span class="pill">Turno: Manhã / Tarde / Noite</span>
+          <span class="pill">Status: Operação ativa</span>
+        </div>
+      </header>
+
+      <main class="grid">
+        <section class="kpis">
+          <article class="card kpi">
+            <div id="metricOrders"></div>
+          </article>
+
+          <article class="card kpi">
+            <div id="metricDelayed"></div>
+          </article>
+
+          <article class="card kpi">
+            <div id="metricSla"></div>
+          </article>
+
+          <article class="card kpi">
+            <div id="metricRetrabalho"></div>
+          </article>
+        </section>
+
+        <section class="card panel large">
+          <h3>Taxa de atraso por etapa</h3>
+          <div class="chart-bars" id="barChart"></div>
+        </section>
+
+        <aside class="card panel medium">
+          <h3>Principais motivos de atraso</h3>
+          <div class="progress-list" id="reasonList"></div>
+        </aside>
+
+        <section class="card panel small">
+          <h3>Top 3 ofensores</h3>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Etapa</th>
+                  <th>Motivo</th>
+                  <th>Volume</th>
+                  <th>Impacto</th>
+                </tr>
+              </thead>
+              <tbody id="offenderBody"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="card panel small">
+          <h3>Recomendações de ação</h3>
+          <ul class="list">
+            <li>
+              <span>Redimensionar força de separação</span>
+              <span class="badge cyan">Alta prioridade</span>
+            </li>
+            <li>
+              <span>Revisar conferência com checklist digital</span>
+              <span class="badge orange">Média</span>
+            </li>
+            <li>
+              <span>Padronizar recebimento e etiqueta</span>
+              <span class="badge red">Crítico</span>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+
+    <script src="assets/dashboard.js"></script>
+  </body>
+</html>

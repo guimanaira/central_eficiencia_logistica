@@ -1,0 +1,160 @@
+{
+  "volume_total_pedidos": 1800,
+  "pedidos_atrasados": 758,
+  "taxa_atraso_geral": 42.11,
+  "sla_cumprido": 1042,
+  "sla_pct": 57.89,
+  "taxa_retrabalho": 18.44,
+  "taxa_inconsistencia": 12.33,
+  "atraso_por_etapa": [
+    {
+      "etapa": "Carregamento",
+      "total_pedidos": 281,
+      "pedidos_atrasados": 123,
+      "taxa_atraso_pct": 43.77,
+      "media_minutos": 230.55
+    },
+    {
+      "etapa": "Conferência",
+      "total_pedidos": 386,
+      "pedidos_atrasados": 168,
+      "taxa_atraso_pct": 43.52,
+      "media_minutos": 234.84
+    },
+    {
+      "etapa": "Recebimento",
+      "total_pedidos": 350,
+      "pedidos_atrasados": 149,
+      "taxa_atraso_pct": 42.57,
+      "media_minutos": 223.84
+    },
+    {
+      "etapa": "Separação",
+      "total_pedidos": 571,
+      "pedidos_atrasados": 236,
+      "taxa_atraso_pct": 41.33,
+      "media_minutos": 241.88
+    },
+    {
+      "etapa": "Expedição",
+      "total_pedidos": 212,
+      "pedidos_atrasados": 82,
+      "taxa_atraso_pct": 38.68,
+      "media_minutos": 229.22
+    }
+  ],
+  "top_motivos": [
+    {
+      "motivo": "Falta de operador",
+      "pedidos_atrasados": 137,
+      "participacao_pct": 18.07
+    },
+    {
+      "motivo": "Falha de WMS",
+      "pedidos_atrasados": 81,
+      "participacao_pct": 10.69
+    },
+    {
+      "motivo": "Separação incorreta",
+      "pedidos_atrasados": 60,
+      "participacao_pct": 7.92
+    },
+    {
+      "motivo": "Conferência pendente",
+      "pedidos_atrasados": 51,
+      "participacao_pct": 6.73
+    },
+    {
+      "motivo": "Ajuste de estoque",
+      "pedidos_atrasados": 46,
+      "participacao_pct": 6.07
+    },
+    {
+      "motivo": "Pedido com divergência",
+      "pedidos_atrasados": 46,
+      "participacao_pct": 6.07
+    },
+    {
+      "motivo": "Falha de scanner",
+      "pedidos_atrasados": 44,
+      "participacao_pct": 5.8
+    },
+    {
+      "motivo": "Falta de caminhão",
+      "pedidos_atrasados": 44,
+      "participacao_pct": 5.8
+    },
+    {
+      "motivo": "Pedido incompleto",
+      "pedidos_atrasados": 33,
+      "participacao_pct": 4.35
+    },
+    {
+      "motivo": "Etiqueta divergente",
+      "pedidos_atrasados": 32,
+      "participacao_pct": 4.22
+    }
+  ],
+  "top_ofensores": [
+    {
+      "etapa": "Separação",
+      "motivo": "Falta de operador",
+      "ocorrencias": 76,
+      "media_minutos": 238.42
+    },
+    {
+      "etapa": "Recebimento",
+      "motivo": "Falta de operador",
+      "ocorrencias": 61,
+      "media_minutos": 223.66
+    },
+    {
+      "etapa": "Separação",
+      "motivo": "Separação incorreta",
+      "ocorrencias": 60,
+      "media_minutos": 218.03
+    },
+    {
+      "etapa": "Separação",
+      "motivo": "Falha de WMS",
+      "ocorrencias": 54,
+      "media_minutos": 254.57
+    },
+    {
+      "etapa": "Conferência",
+      "motivo": "Conferência pendente",
+      "ocorrencias": 51,
+      "media_minutos": 237.92
+    },
+    {
+      "etapa": "Separação",
+      "motivo": "Ajuste de estoque",
+      "ocorrencias": 46,
+      "media_minutos": 263.78
+    },
+    {
+      "etapa": "Conferência",
+      "motivo": "Pedido com divergência",
+      "ocorrencias": 46,
+      "media_minutos": 247.11
+    },
+    {
+      "etapa": "Conferência",
+      "motivo": "Falha de scanner",
+      "ocorrencias": 44,
+      "media_minutos": 233.93
+    },
+    {
+      "etapa": "Carregamento",
+      "motivo": "Falta de caminhão",
+      "ocorrencias": 44,
+      "media_minutos": 221.43
+    },
+    {
+      "etapa": "Recebimento",
+      "motivo": "Pedido incompleto",
+      "ocorrencias": 33,
+      "media_minutos": 202.06
+    }
+  ]
+}

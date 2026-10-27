@@ -1,0 +1,1489 @@
+ocorrencia_id,pedido_id,etapa_logistica,data_ocorrencia,turno,motivo,retrabalho,severidade,tempo_atraso_min
+1,6,Conferência,2026-01-18 20:12:00,Tarde,Pedido com divergência,Sim,Média,39
+2,10,Recebimento,2026-03-23 05:34:00,Noite,Falta de operador,Não,Média,80
+3,10,Separação,2026-03-23 06:03:00,Manhã,Falta de operador,Sim,Alta,16
+4,13,Conferência,2026-03-07 11:09:00,Manhã,Conferência pendente,Não,Média,124
+5,16,Conferência,2026-03-25 09:22:00,Manhã,Falha de scanner,Sim,Baixa,10
+6,16,Separação,2026-03-25 08:06:00,Manhã,Ajuste de estoque,Não,Baixa,66
+7,18,Carregamento,2026-05-17 15:32:00,Tarde,Atraso de roteirização,Não,Baixa,159
+8,18,Recebimento,2026-05-17 14:16:00,Tarde,Falta de operador,Não,Média,18
+9,20,Expedição,2026-06-11 19:14:00,Tarde,Carregamento fora do horário,Sim,Alta,16
+10,23,Carregamento,2026-01-29 03:31:00,Noite,Falta de caminhão,Não,Média,18
+11,25,Recebimento,2026-05-06 14:54:00,Tarde,Etiqueta divergente,Sim,Alta,80
+12,29,Carregamento,2026-01-12 18:43:00,Tarde,Falha de WMS,Não,Média,90
+13,33,Conferência,2026-05-23 11:41:00,Manhã,Falha de scanner,Não,Baixa,138
+14,35,Carregamento,2026-01-25 17:17:00,Tarde,Falta de caminhão,Não,Alta,111
+15,36,Conferência,2026-05-24 17:15:00,Tarde,Pedido com divergência,Não,Baixa,122
+16,36,Conferência,2026-05-24 17:55:00,Tarde,Atraso de qualidade,Não,Alta,36
+17,36,Separação,2026-05-24 16:43:00,Tarde,Separação incorreta,Sim,Média,22
+18,37,Separação,2026-03-21 04:08:00,Noite,Falta de operador,Não,Alta,121
+19,37,Separação,2026-03-21 05:20:00,Noite,Falha de WMS,Não,Média,159
+20,38,Expedição,2026-06-09 19:13:00,Tarde,Falha de documentação,Não,Baixa,62
+21,38,Expedição,2026-06-09 19:09:00,Tarde,Atraso de transporte,Não,Alta,18
+22,38,Recebimento,2026-06-09 19:30:00,Tarde,Pedido incompleto,Não,Alta,20
+23,39,Recebimento,2026-04-17 16:07:00,Tarde,Falta de operador,Não,Média,76
+24,41,Carregamento,2026-03-14 12:40:00,Manhã,Atraso de roteirização,Não,Alta,40
+25,45,Conferência,2026-03-19 19:26:00,Tarde,Falha de scanner,Não,Média,159
+26,45,Separação,2026-03-19 17:28:00,Tarde,Falta de operador,Sim,Média,15
+27,49,Carregamento,2026-02-27 22:56:00,Noite,Falha de WMS,Não,Alta,75
+28,49,Recebimento,2026-02-27 20:44:00,Tarde,Atraso no recebimento,Não,Alta,43
+29,49,Separação,2026-02-27 20:56:00,Tarde,Falta de operador,Não,Alta,55
+30,54,Conferência,2026-05-15 11:38:00,Manhã,Atraso de qualidade,Não,Alta,105
+31,54,Separação,2026-05-15 09:56:00,Manhã,Falta de operador,Sim,Baixa,148
+32,54,Recebimento,2026-05-15 11:13:00,Manhã,Pedido incompleto,Não,Alta,56
+33,55,Separação,2026-04-10 18:00:00,Tarde,Falta de operador,Não,Alta,95
+34,56,Expedição,2026-06-29 02:40:00,Noite,Carregamento fora do horário,Não,Média,111
+35,59,Conferência,2026-04-21 04:30:00,Noite,Pedido com divergência,Sim,Alta,60
+36,60,Expedição,2026-04-19 02:40:00,Noite,Ponto de saída congestionado,Não,Baixa,21
+37,60,Conferência,2026-04-19 01:08:00,Noite,Conferência pendente,Sim,Alta,158
+38,60,Separação,2026-04-19 00:49:00,Noite,Separação incorreta,Não,Média,73
+39,63,Separação,2026-02-12 10:43:00,Manhã,Falha de WMS,Não,Média,106
+40,72,Recebimento,2026-04-20 21:40:00,Tarde,Atraso no recebimento,Não,Alta,52
+41,72,Conferência,2026-04-20 21:55:00,Tarde,Conferência pendente,Sim,Média,36
+42,74,Conferência,2026-01-27 01:32:00,Noite,Atraso de qualidade,Não,Média,18
+43,74,Expedição,2026-01-27 01:04:00,Noite,Carregamento fora do horário,Não,Média,12
+44,74,Separação,2026-01-27 01:22:00,Noite,Falta de operador,Sim,Baixa,21
+45,79,Carregamento,2026-01-27 01:55:00,Noite,Atraso de roteirização,Sim,Média,10
+46,79,Conferência,2026-01-27 01:07:00,Noite,Pedido com divergência,Sim,Média,26
+47,79,Separação,2026-01-27 02:02:00,Noite,Falta de operador,Sim,Média,25
+48,81,Expedição,2026-06-11 14:17:00,Tarde,Ponto de saída congestionado,Não,Baixa,11
+49,84,Carregamento,2026-03-01 22:03:00,Noite,Falta de caminhão,Sim,Alta,28
+50,84,Expedição,2026-03-01 22:48:00,Noite,Falha de documentação,Não,Alta,29
+51,84,Conferência,2026-03-01 22:37:00,Noite,Conferência pendente,Não,Baixa,16
+52,86,Conferência,2026-04-16 12:08:00,Manhã,Atraso de qualidade,Sim,Média,42
+53,86,Separação,2026-04-16 12:23:00,Manhã,Separação incorreta,Sim,Alta,12
+54,90,Separação,2026-02-11 01:42:00,Noite,Ajuste de estoque,Não,Média,16
+55,92,Separação,2026-06-04 10:46:00,Manhã,Falta de operador,Não,Média,116
+56,92,Separação,2026-06-04 12:00:00,Manhã,Falta de operador,Não,Alta,26
+57,93,Recebimento,2026-03-19 21:40:00,Tarde,Falta de operador,Não,Média,20
+58,93,Conferência,2026-03-19 19:23:00,Tarde,Atraso de qualidade,Não,Média,151
+59,93,Recebimento,2026-03-19 21:16:00,Tarde,Falta de operador,Sim,Média,36
+60,96,Carregamento,2026-04-24 02:28:00,Noite,Falha operacional,Não,Alta,118
+61,97,Conferência,2026-06-10 23:48:00,Noite,Falha de scanner,Não,Média,89
+62,97,Conferência,2026-06-11 00:54:00,Noite,Conferência pendente,Não,Média,21
+63,97,Separação,2026-06-11 00:05:00,Noite,Falha de WMS,Não,Baixa,25
+64,98,Recebimento,2026-05-06 17:07:00,Tarde,Etiqueta divergente,Sim,Média,25
+65,98,Expedição,2026-05-06 17:58:00,Tarde,Atraso de transporte,Não,Baixa,13
+66,98,Recebimento,2026-05-06 16:36:00,Tarde,Falta de operador,Sim,Média,34
+67,99,Carregamento,2026-06-13 15:58:00,Tarde,Falta de caminhão,Sim,Alta,30
+68,99,Recebimento,2026-06-13 15:44:00,Tarde,Pedido incompleto,Sim,Média,22
+69,99,Separação,2026-06-13 17:10:00,Tarde,Falta de operador,Não,Média,14
+70,102,Conferência,2026-05-01 08:53:00,Manhã,Falha de scanner,Sim,Alta,58
+71,102,Conferência,2026-05-01 10:30:00,Manhã,Conferência pendente,Não,Média,62
+72,106,Separação,2026-02-06 21:43:00,Tarde,Separação incorreta,Sim,Alta,29
+73,108,Separação,2026-03-08 12:46:00,Manhã,Separação incorreta,Sim,Alta,67
+74,108,Carregamento,2026-03-08 12:14:00,Manhã,Falta de caminhão,Não,Baixa,74
+75,109,Recebimento,2026-04-13 11:02:00,Manhã,Falta de operador,Sim,Média,107
+76,109,Carregamento,2026-04-13 10:15:00,Manhã,Atraso de roteirização,Não,Média,84
+77,109,Recebimento,2026-04-13 10:53:00,Manhã,Pedido incompleto,Não,Média,23
+78,110,Conferência,2026-06-14 12:16:00,Manhã,Falha de scanner,Não,Baixa,48
+79,113,Separação,2026-02-10 07:44:00,Manhã,Falha de WMS,Não,Alta,98
+80,113,Conferência,2026-02-10 06:23:00,Manhã,Conferência pendente,Não,Média,59
+81,114,Recebimento,2026-03-03 12:09:00,Manhã,Falta de operador,Sim,Alta,64
+82,115,Carregamento,2026-04-27 22:50:00,Noite,Falta de caminhão,Não,Alta,10
+83,115,Carregamento,2026-04-27 20:41:00,Tarde,Atraso de roteirização,Sim,Média,35
+84,115,Separação,2026-04-27 23:01:00,Noite,Separação incorreta,Sim,Alta,21
+85,117,Conferência,2026-02-08 01:33:00,Noite,Atraso de qualidade,Não,Alta,44
+86,117,Separação,2026-02-08 01:24:00,Noite,Ajuste de estoque,Não,Alta,64
+87,117,Recebimento,2026-02-08 00:22:00,Noite,Etiqueta divergente,Sim,Média,39
+88,118,Carregamento,2026-03-09 22:54:00,Noite,Falha de WMS,Não,Média,108
+89,118,Carregamento,2026-03-09 23:54:00,Noite,Falha de WMS,Não,Alta,53
+90,118,Separação,2026-03-10 00:07:00,Noite,Falta de operador,Sim,Baixa,152
+91,121,Carregamento,2026-03-13 20:34:00,Tarde,Falha de WMS,Não,Alta,78
+92,121,Recebimento,2026-03-13 21:19:00,Tarde,Etiqueta divergente,Sim,Média,83
+93,121,Conferência,2026-03-13 20:07:00,Tarde,Conferência pendente,Não,Alta,29
+94,126,Recebimento,2026-04-20 19:50:00,Tarde,Falta de operador,Sim,Média,135
+95,128,Expedição,2026-06-23 11:49:00,Manhã,Ponto de saída congestionado,Não,Alta,111
+96,128,Carregamento,2026-06-23 12:43:00,Manhã,Falta de caminhão,Não,Média,52
+97,128,Separação,2026-06-23 13:50:00,Manhã,Falta de operador,Não,Média,28
+98,133,Separação,2026-05-16 14:06:00,Tarde,Falta de operador,Sim,Alta,48
+99,133,Carregamento,2026-05-16 11:58:00,Manhã,Atraso de roteirização,Sim,Alta,22
+100,135,Separação,2026-06-22 09:12:00,Manhã,Ajuste de estoque,Sim,Média,28
+101,141,Conferência,2026-03-25 14:01:00,Tarde,Conferência pendente,Não,Baixa,30
+102,141,Carregamento,2026-03-25 14:44:00,Tarde,Falha de WMS,Não,Média,26
+103,148,Carregamento,2026-01-22 12:39:00,Manhã,Falha de WMS,Sim,Média,102
+104,150,Separação,2026-01-25 19:45:00,Tarde,Falta de operador,Sim,Média,102
+105,150,Conferência,2026-01-25 20:07:00,Tarde,Pedido com divergência,Sim,Alta,37
+106,151,Conferência,2026-02-09 19:27:00,Tarde,Falha de scanner,Sim,Média,28
+107,152,Separação,2026-06-03 05:40:00,Noite,Separação incorreta,Não,Alta,112
+108,152,Conferência,2026-06-03 07:05:00,Manhã,Pedido com divergência,Não,Alta,123
+109,152,Expedição,2026-06-03 04:50:00,Noite,Ponto de saída congestionado,Sim,Alta,71
+110,153,Conferência,2026-03-03 10:08:00,Manhã,Atraso de qualidade,Sim,Média,45
+111,153,Separação,2026-03-03 10:04:00,Manhã,Falta de operador,Não,Alta,107
+112,153,Conferência,2026-03-03 10:15:00,Manhã,Conferência pendente,Não,Alta,67
+113,155,Separação,2026-06-05 00:13:00,Noite,Separação incorreta,Não,Baixa,38
+114,155,Expedição,2026-06-05 01:20:00,Noite,Ponto de saída congestionado,Sim,Alta,50
+115,155,Expedição,2026-06-04 23:57:00,Noite,Carregamento fora do horário,Não,Média,22
+116,157,Conferência,2026-01-08 10:32:00,Manhã,Atraso de qualidade,Sim,Baixa,24
+117,157,Recebimento,2026-01-08 09:50:00,Manhã,Falta de operador,Sim,Média,59
+118,157,Separação,2026-01-08 10:01:00,Manhã,Separação incorreta,Não,Média,90
+119,161,Conferência,2026-01-30 15:57:00,Tarde,Pedido com divergência,Não,Baixa,27
+120,161,Recebimento,2026-01-30 15:29:00,Tarde,Falta de operador,Não,Baixa,11
+121,161,Expedição,2026-01-30 16:15:00,Tarde,Atraso de transporte,Sim,Média,17
+122,163,Expedição,2026-05-11 14:23:00,Tarde,Ponto de saída congestionado,Não,Média,27
+123,163,Conferência,2026-05-11 15:30:00,Tarde,Conferência pendente,Não,Alta,20
+124,163,Carregamento,2026-05-11 14:19:00,Tarde,Falha operacional,Sim,Alta,10
+125,164,Carregamento,2026-03-05 00:49:00,Noite,Falha de WMS,Sim,Alta,81
+126,164,Expedição,2026-03-05 02:33:00,Noite,Falha de documentação,Não,Alta,94
+127,168,Expedição,2026-04-06 12:48:00,Manhã,Atraso de transporte,Não,Média,118
+128,169,Recebimento,2026-05-14 03:37:00,Noite,Falta de operador,Não,Média,21
+129,169,Conferência,2026-05-14 01:49:00,Noite,Falha de scanner,Não,Baixa,67
+130,172,Separação,2026-06-24 00:41:00,Noite,Separação incorreta,Sim,Média,20
+131,172,Conferência,2026-06-24 00:33:00,Noite,Conferência pendente,Não,Média,150
+132,172,Separação,2026-06-23 23:46:00,Noite,Separação incorreta,Não,Média,169
+133,173,Recebimento,2026-05-26 18:39:00,Tarde,Etiqueta divergente,Não,Média,45
+134,173,Conferência,2026-05-26 21:00:00,Tarde,Atraso de qualidade,Sim,Média,52
+135,175,Separação,2026-03-09 17:55:00,Tarde,Falha de WMS,Sim,Alta,23
+136,175,Separação,2026-03-09 16:41:00,Tarde,Separação incorreta,Não,Alta,10
+137,175,Conferência,2026-03-09 16:27:00,Tarde,Conferência pendente,Não,Baixa,32
+138,177,Separação,2026-03-19 08:24:00,Manhã,Ajuste de estoque,Não,Alta,21
+139,177,Separação,2026-03-19 06:31:00,Manhã,Falta de operador,Não,Baixa,46
+140,178,Expedição,2026-04-04 15:18:00,Tarde,Falha de documentação,Não,Média,25
+141,178,Separação,2026-04-04 13:43:00,Manhã,Separação incorreta,Não,Baixa,47
+142,179,Conferência,2026-05-04 13:57:00,Manhã,Falha de scanner,Não,Alta,92
+143,179,Conferência,2026-05-04 16:08:00,Tarde,Conferência pendente,Não,Média,27
+144,180,Separação,2026-05-23 16:15:00,Tarde,Falta de operador,Não,Média,47
+145,180,Recebimento,2026-05-23 14:48:00,Tarde,Falta de operador,Não,Média,18
+146,181,Carregamento,2026-02-12 05:51:00,Noite,Falha de WMS,Não,Alta,12
+147,183,Separação,2026-06-10 23:33:00,Noite,Separação incorreta,Não,Baixa,21
+148,183,Separação,2026-06-11 02:00:00,Noite,Falta de operador,Sim,Alta,12
+149,186,Separação,2026-02-23 04:40:00,Noite,Ajuste de estoque,Não,Alta,68
+150,186,Recebimento,2026-02-23 04:24:00,Noite,Atraso no recebimento,Não,Média,32
+151,186,Conferência,2026-02-23 05:49:00,Noite,Atraso de qualidade,Sim,Alta,110
+152,187,Recebimento,2026-05-24 23:17:00,Noite,Falta de operador,Não,Alta,76
+153,187,Separação,2026-05-24 22:59:00,Noite,Falha de WMS,Sim,Baixa,63
+154,189,Separação,2026-03-21 08:16:00,Manhã,Ajuste de estoque,Sim,Baixa,21
+155,190,Conferência,2026-06-18 16:34:00,Tarde,Falha de scanner,Sim,Média,10
+156,190,Conferência,2026-06-18 16:46:00,Tarde,Atraso de qualidade,Não,Média,50
+157,190,Separação,2026-06-18 16:30:00,Tarde,Falta de operador,Não,Média,111
+158,192,Recebimento,2026-06-10 13:53:00,Manhã,Pedido incompleto,Sim,Média,65
+159,192,Conferência,2026-06-10 13:03:00,Manhã,Falha de scanner,Não,Média,99
+160,194,Recebimento,2026-05-13 05:14:00,Noite,Pedido incompleto,Não,Média,47
+161,194,Separação,2026-05-13 06:20:00,Manhã,Falha de WMS,Não,Média,81
+162,194,Conferência,2026-05-13 05:40:00,Noite,Atraso de qualidade,Sim,Média,45
+163,197,Carregamento,2026-01-15 11:40:00,Manhã,Falha de WMS,Não,Alta,141
+164,197,Expedição,2026-01-15 12:09:00,Manhã,Falha de documentação,Não,Alta,31
+165,198,Expedição,2026-06-29 18:13:00,Tarde,Ponto de saída congestionado,Sim,Média,49
+166,199,Carregamento,2026-01-17 22:19:00,Noite,Falha operacional,Sim,Baixa,39
+167,199,Expedição,2026-01-17 22:08:00,Noite,Atraso de transporte,Não,Média,25
+168,201,Carregamento,2026-03-19 04:34:00,Noite,Falta de caminhão,Sim,Alta,149
+169,201,Separação,2026-03-19 04:13:00,Noite,Falha de WMS,Sim,Média,193
+170,202,Expedição,2026-06-24 16:39:00,Tarde,Falha de documentação,Sim,Média,55
+171,202,Separação,2026-06-24 17:12:00,Tarde,Falta de operador,Não,Média,45
+172,204,Recebimento,2026-06-08 19:01:00,Tarde,Falta de operador,Não,Alta,13
+173,204,Separação,2026-06-08 18:32:00,Tarde,Separação incorreta,Não,Média,35
+174,204,Recebimento,2026-06-08 17:09:00,Tarde,Pedido incompleto,Não,Média,31
+175,209,Recebimento,2026-04-28 20:39:00,Tarde,Pedido incompleto,Não,Média,16
+176,209,Expedição,2026-04-28 19:41:00,Tarde,Atraso de transporte,Não,Média,42
+177,216,Recebimento,2026-03-06 22:02:00,Noite,Atraso no recebimento,Sim,Alta,123
+178,216,Conferência,2026-03-06 22:43:00,Noite,Conferência pendente,Sim,Baixa,104
+179,219,Separação,2026-04-30 18:00:00,Tarde,Ajuste de estoque,Não,Baixa,15
+180,220,Expedição,2026-01-18 10:03:00,Manhã,Ponto de saída congestionado,Não,Média,154
+181,223,Carregamento,2026-01-01 22:57:00,Noite,Falta de caminhão,Não,Alta,99
+182,223,Expedição,2026-01-01 22:45:00,Noite,Atraso de transporte,Sim,Alta,129
+183,224,Expedição,2026-01-30 05:02:00,Noite,Carregamento fora do horário,Sim,Média,29
+184,225,Recebimento,2026-06-04 14:21:00,Tarde,Falta de operador,Sim,Média,16
+185,225,Carregamento,2026-06-04 14:35:00,Tarde,Falha de WMS,Sim,Média,28
+186,226,Separação,2026-03-02 20:26:00,Tarde,Falta de operador,Não,Alta,13
+187,226,Recebimento,2026-03-02 22:06:00,Noite,Pedido incompleto,Sim,Média,10
+188,226,Separação,2026-03-02 19:57:00,Tarde,Ajuste de estoque,Sim,Média,12
+189,228,Separação,2026-05-08 03:31:00,Noite,Separação incorreta,Sim,Média,90
+190,229,Expedição,2026-05-03 02:54:00,Noite,Falha de documentação,Não,Média,32
+191,229,Expedição,2026-05-03 02:30:00,Noite,Carregamento fora do horário,Não,Média,53
+192,229,Recebimento,2026-05-03 01:46:00,Noite,Pedido incompleto,Sim,Média,72
+193,230,Expedição,2026-02-05 06:47:00,Manhã,Atraso de transporte,Não,Média,150
+194,230,Recebimento,2026-02-05 08:35:00,Manhã,Pedido incompleto,Não,Baixa,71
+195,230,Expedição,2026-02-05 07:15:00,Manhã,Carregamento fora do horário,Não,Alta,59
+196,235,Carregamento,2026-03-24 03:39:00,Noite,Falta de caminhão,Não,Baixa,110
+197,235,Separação,2026-03-24 02:44:00,Noite,Separação incorreta,Sim,Baixa,51
+198,235,Conferência,2026-03-24 02:22:00,Noite,Atraso de qualidade,Não,Alta,90
+199,238,Recebimento,2026-05-21 15:20:00,Tarde,Pedido incompleto,Sim,Média,57
+200,238,Conferência,2026-05-21 16:33:00,Tarde,Falha de scanner,Não,Baixa,66
+201,239,Separação,2026-02-06 12:17:00,Manhã,Falta de operador,Não,Baixa,20
+202,239,Conferência,2026-02-06 12:25:00,Manhã,Atraso de qualidade,Não,Baixa,148
+203,241,Expedição,2026-03-16 02:16:00,Noite,Carregamento fora do horário,Sim,Alta,17
+204,241,Recebimento,2026-03-16 02:10:00,Noite,Pedido incompleto,Não,Média,10
+205,241,Separação,2026-03-16 03:10:00,Noite,Falha de WMS,Sim,Alta,46
+206,245,Carregamento,2026-05-16 20:48:00,Tarde,Falha de WMS,Não,Alta,12
+207,245,Recebimento,2026-05-16 21:14:00,Tarde,Etiqueta divergente,Sim,Média,17
+208,245,Expedição,2026-05-16 20:11:00,Tarde,Atraso de transporte,Não,Alta,14
+209,248,Separação,2026-02-06 14:52:00,Tarde,Separação incorreta,Sim,Alta,10
+210,248,Conferência,2026-02-06 16:26:00,Tarde,Conferência pendente,Sim,Alta,36
+211,249,Separação,2026-06-03 08:06:00,Manhã,Falha de WMS,Sim,Média,53
+212,250,Conferência,2026-06-25 15:45:00,Tarde,Falha de scanner,Sim,Alta,77
+213,252,Conferência,2026-01-27 20:48:00,Tarde,Atraso de qualidade,Não,Média,65
+214,254,Carregamento,2026-05-28 17:43:00,Tarde,Falha de WMS,Não,Média,45
+215,258,Carregamento,2026-03-18 02:55:00,Noite,Atraso de roteirização,Não,Média,70
+216,264,Conferência,2026-01-03 23:25:00,Noite,Conferência pendente,Não,Alta,106
+217,266,Expedição,2026-02-07 09:37:00,Manhã,Carregamento fora do horário,Não,Baixa,106
+218,266,Conferência,2026-02-07 09:31:00,Manhã,Conferência pendente,Não,Baixa,140
+219,267,Separação,2026-03-18 17:20:00,Tarde,Ajuste de estoque,Não,Alta,45
+220,267,Recebimento,2026-03-18 17:48:00,Tarde,Etiqueta divergente,Sim,Baixa,64
+221,269,Separação,2026-01-09 18:20:00,Tarde,Falta de operador,Sim,Alta,25
+222,269,Separação,2026-01-09 19:26:00,Tarde,Falta de operador,Não,Média,197
+223,269,Recebimento,2026-01-09 19:36:00,Tarde,Etiqueta divergente,Não,Baixa,102
+224,272,Conferência,2026-06-23 18:06:00,Tarde,Conferência pendente,Não,Alta,11
+225,272,Recebimento,2026-06-23 18:16:00,Tarde,Etiqueta divergente,Sim,Alta,29
+226,272,Separação,2026-06-23 19:56:00,Tarde,Falta de operador,Não,Alta,26
+227,275,Carregamento,2026-01-04 10:04:00,Manhã,Falta de caminhão,Sim,Alta,43
+228,275,Conferência,2026-01-04 09:27:00,Manhã,Pedido com divergência,Não,Média,10
+229,275,Conferência,2026-01-04 10:43:00,Manhã,Atraso de qualidade,Não,Média,122
+230,276,Separação,2026-05-07 06:50:00,Manhã,Separação incorreta,Sim,Média,26
+231,276,Carregamento,2026-05-07 05:02:00,Noite,Falha operacional,Não,Baixa,19
+232,277,Separação,2026-05-08 09:33:00,Manhã,Ajuste de estoque,Não,Baixa,26
+233,277,Separação,2026-05-08 09:30:00,Manhã,Ajuste de estoque,Sim,Alta,27
+234,278,Recebimento,2026-02-26 14:50:00,Tarde,Pedido incompleto,Sim,Baixa,37
+235,278,Separação,2026-02-26 16:13:00,Tarde,Falta de operador,Sim,Baixa,22
+236,279,Expedição,2026-03-03 08:36:00,Manhã,Falha de documentação,Não,Alta,39
+237,279,Expedição,2026-03-03 07:00:00,Manhã,Falha de documentação,Não,Alta,19
+238,279,Recebimento,2026-03-03 08:30:00,Manhã,Pedido incompleto,Não,Baixa,47
+239,280,Carregamento,2026-01-17 18:10:00,Tarde,Falha operacional,Não,Média,120
+240,280,Separação,2026-01-17 18:12:00,Tarde,Falta de operador,Não,Baixa,67
+241,283,Separação,2026-04-08 17:54:00,Tarde,Falta de operador,Não,Baixa,34
+242,283,Recebimento,2026-04-08 15:43:00,Tarde,Falta de operador,Não,Alta,21
+243,283,Separação,2026-04-08 16:04:00,Tarde,Falta de operador,Não,Média,104
+244,288,Expedição,2026-03-12 23:34:00,Noite,Carregamento fora do horário,Sim,Baixa,141
+245,288,Carregamento,2026-03-12 22:22:00,Noite,Falha operacional,Não,Média,162
+246,293,Conferência,2026-06-11 21:47:00,Tarde,Falha de scanner,Sim,Média,89
+247,293,Expedição,2026-06-11 22:36:00,Noite,Ponto de saída congestionado,Não,Média,66
+248,293,Separação,2026-06-11 21:04:00,Tarde,Falta de operador,Não,Alta,82
+249,297,Expedição,2026-04-04 08:51:00,Manhã,Atraso de transporte,Não,Média,70
+250,297,Separação,2026-04-04 08:09:00,Manhã,Falta de operador,Não,Baixa,71
+251,298,Recebimento,2026-01-06 10:50:00,Manhã,Atraso no recebimento,Não,Baixa,44
+252,299,Carregamento,2026-04-18 11:43:00,Manhã,Falha operacional,Não,Média,18
+253,299,Separação,2026-04-18 11:46:00,Manhã,Falha de WMS,Não,Alta,35
+254,300,Carregamento,2026-02-10 16:54:00,Tarde,Atraso de roteirização,Sim,Baixa,71
+255,300,Separação,2026-02-10 15:21:00,Tarde,Separação incorreta,Não,Alta,162
+256,301,Separação,2026-03-03 19:19:00,Tarde,Ajuste de estoque,Sim,Média,30
+257,301,Recebimento,2026-03-03 17:34:00,Tarde,Falta de operador,Não,Alta,156
+258,301,Separação,2026-03-03 20:07:00,Tarde,Ajuste de estoque,Não,Média,32
+259,307,Separação,2026-06-18 09:20:00,Manhã,Separação incorreta,Sim,Alta,83
+260,307,Separação,2026-06-18 10:38:00,Manhã,Falta de operador,Sim,Alta,40
+261,308,Separação,2026-01-15 04:05:00,Noite,Ajuste de estoque,Sim,Alta,85
+262,309,Separação,2026-01-04 07:16:00,Manhã,Separação incorreta,Sim,Média,77
+263,312,Conferência,2026-05-06 20:09:00,Tarde,Conferência pendente,Não,Alta,48
+264,312,Carregamento,2026-05-06 20:23:00,Tarde,Atraso de roteirização,Não,Baixa,82
+265,312,Separação,2026-05-06 21:26:00,Tarde,Falha de WMS,Sim,Alta,97
+266,314,Recebimento,2026-03-03 06:01:00,Manhã,Etiqueta divergente,Não,Média,55
+267,316,Recebimento,2026-02-24 13:24:00,Manhã,Falta de operador,Não,Média,152
+268,318,Separação,2026-04-15 14:16:00,Tarde,Falta de operador,Não,Baixa,26
+269,318,Carregamento,2026-04-15 15:12:00,Tarde,Falta de caminhão,Sim,Média,30
+270,322,Carregamento,2026-04-20 23:41:00,Noite,Atraso de roteirização,Não,Média,97
+271,323,Carregamento,2026-05-09 14:34:00,Tarde,Falta de caminhão,Não,Baixa,120
+272,323,Separação,2026-05-09 13:29:00,Manhã,Falta de operador,Sim,Baixa,81
+273,323,Expedição,2026-05-09 12:52:00,Manhã,Ponto de saída congestionado,Não,Média,101
+274,327,Carregamento,2026-02-27 15:47:00,Tarde,Atraso de roteirização,Sim,Alta,51
+275,329,Conferência,2026-05-08 10:14:00,Manhã,Atraso de qualidade,Sim,Baixa,55
+276,329,Carregamento,2026-05-08 10:52:00,Manhã,Falta de caminhão,Sim,Média,59
+277,329,Recebimento,2026-05-08 11:22:00,Manhã,Falta de operador,Sim,Média,41
+278,330,Carregamento,2026-02-22 00:14:00,Noite,Falha de WMS,Não,Média,52
+279,331,Separação,2026-05-16 09:43:00,Manhã,Falta de operador,Sim,Alta,43
+280,336,Recebimento,2026-06-22 19:02:00,Tarde,Etiqueta divergente,Não,Média,41
+281,336,Carregamento,2026-06-22 18:04:00,Tarde,Falha de WMS,Não,Média,23
+282,337,Recebimento,2026-04-24 18:30:00,Tarde,Falta de operador,Sim,Média,54
+283,338,Separação,2026-06-26 05:25:00,Noite,Ajuste de estoque,Não,Média,24
+284,340,Separação,2026-01-09 06:42:00,Manhã,Separação incorreta,Não,Baixa,13
+285,340,Conferência,2026-01-09 08:44:00,Manhã,Pedido com divergência,Sim,Média,60
+286,342,Carregamento,2026-04-03 16:51:00,Tarde,Atraso de roteirização,Não,Baixa,41
+287,343,Recebimento,2026-01-22 10:13:00,Manhã,Falta de operador,Não,Alta,151
+288,344,Expedição,2026-04-09 10:51:00,Manhã,Carregamento fora do horário,Não,Baixa,12
+289,346,Conferência,2026-05-15 16:35:00,Tarde,Atraso de qualidade,Não,Alta,78
+290,346,Carregamento,2026-05-15 16:46:00,Tarde,Falha operacional,Sim,Média,43
+291,348,Recebimento,2026-02-13 01:09:00,Noite,Atraso no recebimento,Não,Alta,46
+292,349,Expedição,2026-03-24 18:00:00,Tarde,Carregamento fora do horário,Sim,Média,42
+293,351,Separação,2026-01-26 22:05:00,Noite,Ajuste de estoque,Sim,Alta,97
+294,352,Carregamento,2026-05-02 21:21:00,Tarde,Falta de caminhão,Não,Média,89
+295,352,Expedição,2026-05-02 21:26:00,Tarde,Atraso de transporte,Não,Alta,41
+296,352,Carregamento,2026-05-02 21:53:00,Tarde,Falha operacional,Não,Média,92
+297,354,Conferência,2026-06-25 23:23:00,Noite,Conferência pendente,Sim,Alta,11
+298,355,Conferência,2026-02-19 13:38:00,Manhã,Conferência pendente,Não,Alta,51
+299,355,Conferência,2026-02-19 11:33:00,Manhã,Conferência pendente,Sim,Média,35
+300,356,Recebimento,2026-04-15 05:42:00,Noite,Etiqueta divergente,Sim,Alta,25
+301,356,Conferência,2026-04-15 05:20:00,Noite,Pedido com divergência,Não,Alta,11
+302,356,Separação,2026-04-15 04:18:00,Noite,Falta de operador,Não,Alta,31
+303,357,Separação,2026-04-04 17:58:00,Tarde,Separação incorreta,Sim,Média,20
+304,358,Separação,2026-04-26 04:10:00,Noite,Falta de operador,Não,Média,64
+305,358,Conferência,2026-04-26 05:54:00,Noite,Pedido com divergência,Não,Baixa,132
+306,361,Carregamento,2026-06-06 11:00:00,Manhã,Falta de caminhão,Não,Baixa,11
+307,362,Conferência,2026-06-10 04:16:00,Noite,Falha de scanner,Sim,Média,48
+308,363,Recebimento,2026-06-25 20:08:00,Tarde,Falta de operador,Não,Média,168
+309,363,Separação,2026-06-25 21:51:00,Tarde,Separação incorreta,Não,Baixa,143
+310,364,Separação,2026-02-19 00:50:00,Noite,Falta de operador,Não,Média,87
+311,364,Expedição,2026-02-19 00:37:00,Noite,Atraso de transporte,Não,Média,13
+312,368,Expedição,2026-02-17 20:08:00,Tarde,Ponto de saída congestionado,Não,Média,79
+313,368,Separação,2026-02-17 20:36:00,Tarde,Falta de operador,Não,Alta,97
+314,372,Expedição,2026-06-12 23:51:00,Noite,Ponto de saída congestionado,Sim,Média,30
+315,372,Carregamento,2026-06-12 23:20:00,Noite,Falta de caminhão,Sim,Média,33
+316,372,Carregamento,2026-06-12 23:18:00,Noite,Falha operacional,Sim,Baixa,15
+317,374,Conferência,2026-05-17 06:22:00,Manhã,Pedido com divergência,Não,Média,34
+318,379,Expedição,2026-06-27 03:01:00,Noite,Carregamento fora do horário,Não,Média,11
+319,379,Conferência,2026-06-27 02:52:00,Noite,Conferência pendente,Não,Média,88
+320,381,Conferência,2026-06-08 21:30:00,Tarde,Falha de scanner,Não,Média,125
+321,381,Expedição,2026-06-08 19:45:00,Tarde,Falha de documentação,Não,Média,98
+322,382,Conferência,2026-04-16 01:24:00,Noite,Conferência pendente,Sim,Média,21
+323,382,Separação,2026-04-16 00:50:00,Noite,Falta de operador,Sim,Alta,18
+324,384,Separação,2026-06-15 03:58:00,Noite,Falta de operador,Não,Baixa,91
+325,384,Conferência,2026-06-15 04:25:00,Noite,Pedido com divergência,Não,Média,36
+326,384,Recebimento,2026-06-15 03:59:00,Noite,Pedido incompleto,Não,Baixa,54
+327,386,Recebimento,2026-04-03 11:35:00,Manhã,Falta de operador,Não,Média,40
+328,387,Carregamento,2026-04-10 23:14:00,Noite,Falha operacional,Não,Média,155
+329,388,Conferência,2026-02-11 04:23:00,Noite,Pedido com divergência,Não,Média,48
+330,388,Expedição,2026-02-11 04:25:00,Noite,Ponto de saída congestionado,Não,Média,42
+331,390,Carregamento,2026-06-24 17:21:00,Tarde,Falta de caminhão,Não,Alta,72
+332,393,Separação,2026-05-07 06:53:00,Manhã,Falha de WMS,Sim,Média,38
+333,393,Conferência,2026-05-07 07:31:00,Manhã,Conferência pendente,Sim,Média,31
+334,393,Recebimento,2026-05-07 07:11:00,Manhã,Falta de operador,Não,Baixa,71
+335,394,Expedição,2026-05-28 14:04:00,Tarde,Falha de documentação,Não,Alta,84
+336,394,Carregamento,2026-05-28 12:51:00,Manhã,Falta de caminhão,Sim,Alta,107
+337,394,Conferência,2026-05-28 12:32:00,Manhã,Conferência pendente,Sim,Média,15
+338,397,Separação,2026-06-19 11:19:00,Manhã,Ajuste de estoque,Sim,Média,115
+339,397,Separação,2026-06-19 11:36:00,Manhã,Separação incorreta,Sim,Alta,19
+340,407,Recebimento,2026-04-18 22:45:00,Noite,Falta de operador,Não,Média,18
+341,409,Carregamento,2026-05-19 22:56:00,Noite,Falta de caminhão,Não,Baixa,101
+342,412,Recebimento,2026-06-16 13:35:00,Manhã,Falta de operador,Sim,Média,55
+343,413,Conferência,2026-02-18 05:33:00,Noite,Pedido com divergência,Não,Média,130
+344,413,Expedição,2026-02-18 05:59:00,Noite,Carregamento fora do horário,Não,Baixa,156
+345,413,Conferência,2026-02-18 05:15:00,Noite,Atraso de qualidade,Não,Média,58
+346,415,Conferência,2026-06-20 10:17:00,Manhã,Pedido com divergência,Sim,Média,44
+347,415,Conferência,2026-06-20 10:13:00,Manhã,Conferência pendente,Sim,Baixa,63
+348,416,Recebimento,2026-02-11 12:48:00,Manhã,Etiqueta divergente,Sim,Média,49
+349,416,Separação,2026-02-11 13:58:00,Manhã,Falta de operador,Sim,Baixa,48
+350,417,Conferência,2026-06-09 17:23:00,Tarde,Falha de scanner,Não,Média,60
+351,418,Carregamento,2026-06-10 09:33:00,Manhã,Falta de caminhão,Não,Alta,155
+352,418,Carregamento,2026-06-10 10:42:00,Manhã,Falha de WMS,Não,Baixa,32
+353,418,Conferência,2026-06-10 10:05:00,Manhã,Atraso de qualidade,Não,Baixa,77
+354,419,Expedição,2026-05-14 11:36:00,Manhã,Atraso de transporte,Sim,Média,35
+355,421,Expedição,2026-02-23 17:12:00,Tarde,Atraso de transporte,Não,Média,110
+356,421,Separação,2026-02-23 16:15:00,Tarde,Separação incorreta,Não,Alta,50
+357,422,Separação,2026-01-15 01:19:00,Noite,Separação incorreta,Não,Média,27
+358,424,Recebimento,2026-01-20 10:47:00,Manhã,Pedido incompleto,Sim,Alta,39
+359,426,Separação,2026-02-07 12:20:00,Manhã,Falta de operador,Não,Alta,13
+360,427,Expedição,2026-05-19 13:06:00,Manhã,Ponto de saída congestionado,Não,Baixa,119
+361,427,Recebimento,2026-05-19 14:09:00,Tarde,Pedido incompleto,Sim,Alta,73
+362,427,Expedição,2026-05-19 12:44:00,Manhã,Atraso de transporte,Não,Média,30
+363,428,Expedição,2026-02-18 04:28:00,Noite,Ponto de saída congestionado,Não,Alta,53
+364,430,Recebimento,2026-04-03 05:45:00,Noite,Falta de operador,Sim,Média,68
+365,431,Expedição,2026-06-28 18:04:00,Tarde,Ponto de saída congestionado,Sim,Alta,30
+366,433,Carregamento,2026-05-06 11:37:00,Manhã,Falta de caminhão,Sim,Alta,115
+367,433,Expedição,2026-05-06 12:21:00,Manhã,Atraso de transporte,Não,Alta,36
+368,433,Carregamento,2026-05-06 12:44:00,Manhã,Falha de WMS,Não,Média,76
+369,436,Recebimento,2026-04-12 10:31:00,Manhã,Etiqueta divergente,Não,Baixa,43
+370,436,Recebimento,2026-04-12 10:16:00,Manhã,Pedido incompleto,Sim,Alta,66
+371,438,Carregamento,2026-05-05 05:42:00,Noite,Falha de WMS,Sim,Alta,14
+372,441,Recebimento,2026-01-21 15:58:00,Tarde,Etiqueta divergente,Não,Média,110
+373,442,Separação,2026-02-06 09:38:00,Manhã,Falta de operador,Não,Baixa,73
+374,442,Separação,2026-02-06 09:24:00,Manhã,Falha de WMS,Não,Alta,57
+375,442,Recebimento,2026-02-06 07:41:00,Manhã,Falta de operador,Sim,Média,141
+376,444,Separação,2026-04-16 16:59:00,Tarde,Separação incorreta,Não,Alta,22
+377,446,Expedição,2026-02-26 13:06:00,Manhã,Falha de documentação,Não,Baixa,134
+378,446,Separação,2026-02-26 15:29:00,Tarde,Falta de operador,Não,Média,100
+379,446,Recebimento,2026-02-26 15:26:00,Tarde,Atraso no recebimento,Sim,Média,163
+380,447,Carregamento,2026-06-19 09:45:00,Manhã,Atraso de roteirização,Não,Baixa,28
+381,447,Expedição,2026-06-19 10:22:00,Manhã,Falha de documentação,Sim,Média,33
+382,450,Recebimento,2026-06-24 19:46:00,Tarde,Atraso no recebimento,Sim,Média,106
+383,453,Separação,2026-04-08 18:25:00,Tarde,Ajuste de estoque,Não,Média,59
+384,453,Expedição,2026-04-08 15:54:00,Tarde,Ponto de saída congestionado,Não,Alta,61
+385,453,Expedição,2026-04-08 17:47:00,Tarde,Atraso de transporte,Não,Alta,88
+386,455,Carregamento,2026-03-21 17:57:00,Tarde,Falha de WMS,Não,Média,79
+387,455,Separação,2026-03-21 15:26:00,Tarde,Ajuste de estoque,Não,Média,106
+388,455,Carregamento,2026-03-21 15:42:00,Tarde,Falha operacional,Não,Alta,58
+389,456,Separação,2026-05-12 09:42:00,Manhã,Falta de operador,Não,Média,63
+390,456,Recebimento,2026-05-12 10:17:00,Manhã,Atraso no recebimento,Não,Média,125
+391,456,Expedição,2026-05-12 09:39:00,Manhã,Carregamento fora do horário,Sim,Média,49
+392,460,Separação,2026-03-02 20:56:00,Tarde,Ajuste de estoque,Não,Baixa,87
+393,463,Recebimento,2026-03-09 04:27:00,Noite,Pedido incompleto,Sim,Média,28
+394,466,Expedição,2026-03-01 07:59:00,Manhã,Falha de documentação,Sim,Baixa,50
+395,466,Separação,2026-03-01 08:42:00,Manhã,Falha de WMS,Não,Média,69
+396,467,Carregamento,2026-01-21 12:28:00,Manhã,Falta de caminhão,Sim,Média,85
+397,467,Conferência,2026-01-21 10:54:00,Manhã,Atraso de qualidade,Não,Baixa,179
+398,467,Separação,2026-01-21 13:29:00,Manhã,Separação incorreta,Não,Média,59
+399,472,Carregamento,2026-05-19 23:29:00,Noite,Falta de caminhão,Não,Baixa,79
+400,473,Conferência,2026-01-05 18:45:00,Tarde,Atraso de qualidade,Sim,Média,32
+401,473,Carregamento,2026-01-05 18:49:00,Tarde,Falta de caminhão,Não,Média,47
+402,473,Conferência,2026-01-05 18:33:00,Tarde,Atraso de qualidade,Não,Média,65
+403,474,Separação,2026-06-07 04:51:00,Noite,Separação incorreta,Sim,Baixa,107
+404,474,Conferência,2026-06-07 04:16:00,Noite,Pedido com divergência,Não,Baixa,49
+405,474,Expedição,2026-06-07 03:09:00,Noite,Ponto de saída congestionado,Sim,Média,82
+406,477,Expedição,2026-05-18 23:37:00,Noite,Carregamento fora do horário,Não,Média,30
+407,477,Conferência,2026-05-18 22:33:00,Noite,Falha de scanner,Não,Média,35
+408,477,Carregamento,2026-05-18 21:24:00,Tarde,Falha operacional,Não,Alta,23
+409,480,Conferência,2026-03-15 12:43:00,Manhã,Conferência pendente,Não,Média,28
+410,480,Recebimento,2026-03-15 12:11:00,Manhã,Falta de operador,Sim,Baixa,46
+411,481,Conferência,2026-02-13 17:00:00,Tarde,Pedido com divergência,Sim,Média,42
+412,486,Carregamento,2026-03-06 21:41:00,Tarde,Falha operacional,Sim,Alta,67
+413,486,Recebimento,2026-03-06 23:43:00,Noite,Etiqueta divergente,Não,Alta,45
+414,486,Conferência,2026-03-06 21:54:00,Tarde,Pedido com divergência,Não,Baixa,104
+415,488,Recebimento,2026-06-03 17:41:00,Tarde,Falta de operador,Não,Baixa,98
+416,488,Carregamento,2026-06-03 16:06:00,Tarde,Falha operacional,Sim,Alta,105
+417,488,Recebimento,2026-06-03 18:10:00,Tarde,Falta de operador,Não,Alta,10
+418,490,Conferência,2026-03-31 08:30:00,Manhã,Conferência pendente,Sim,Alta,125
+419,490,Separação,2026-03-31 09:15:00,Manhã,Falha de WMS,Não,Baixa,63
+420,493,Recebimento,2026-03-12 11:23:00,Manhã,Etiqueta divergente,Sim,Média,44
+421,493,Conferência,2026-03-12 10:44:00,Manhã,Conferência pendente,Não,Alta,24
+422,493,Recebimento,2026-03-12 09:39:00,Manhã,Pedido incompleto,Não,Média,34
+423,494,Carregamento,2026-03-12 21:00:00,Tarde,Atraso de roteirização,Não,Média,15
+424,494,Conferência,2026-03-12 22:47:00,Noite,Falha de scanner,Não,Alta,35
+425,494,Recebimento,2026-03-12 21:09:00,Tarde,Pedido incompleto,Não,Média,16
+426,495,Expedição,2026-04-24 18:29:00,Tarde,Atraso de transporte,Não,Média,67
+427,496,Conferência,2026-01-10 04:41:00,Noite,Conferência pendente,Não,Alta,38
+428,496,Separação,2026-01-10 04:56:00,Noite,Falta de operador,Não,Baixa,71
+429,496,Separação,2026-01-10 02:28:00,Noite,Ajuste de estoque,Não,Alta,73
+430,497,Recebimento,2026-02-02 22:00:00,Noite,Falta de operador,Não,Alta,52
+431,497,Recebimento,2026-02-02 21:36:00,Tarde,Atraso no recebimento,Não,Alta,78
+432,499,Carregamento,2026-02-02 11:03:00,Manhã,Falha operacional,Não,Alta,17
+433,500,Expedição,2026-01-05 02:12:00,Noite,Ponto de saída congestionado,Não,Média,146
+434,500,Conferência,2026-01-05 01:58:00,Noite,Pedido com divergência,Sim,Média,182
+435,502,Expedição,2026-01-17 05:18:00,Noite,Falha de documentação,Não,Média,112
+436,503,Separação,2026-04-24 15:41:00,Tarde,Falta de operador,Não,Baixa,92
+437,503,Separação,2026-04-24 16:20:00,Tarde,Falta de operador,Não,Alta,51
+438,503,Separação,2026-04-24 15:20:00,Tarde,Falta de operador,Não,Média,12
+439,506,Carregamento,2026-05-11 08:25:00,Manhã,Atraso de roteirização,Não,Baixa,78
+440,506,Conferência,2026-05-11 08:35:00,Manhã,Conferência pendente,Não,Média,87
+441,507,Carregamento,2026-04-11 09:00:00,Manhã,Falha de WMS,Não,Média,80
+442,508,Separação,2026-01-18 20:26:00,Tarde,Falha de WMS,Sim,Média,156
+443,508,Separação,2026-01-18 20:29:00,Tarde,Falta de operador,Sim,Média,139
+444,508,Carregamento,2026-01-18 20:17:00,Tarde,Falta de caminhão,Sim,Alta,142
+445,509,Separação,2026-05-07 18:38:00,Tarde,Separação incorreta,Não,Média,34
+446,509,Separação,2026-05-07 16:17:00,Tarde,Falha de WMS,Sim,Média,60
+447,509,Conferência,2026-05-07 18:21:00,Tarde,Falha de scanner,Não,Alta,30
+448,511,Recebimento,2026-01-16 17:42:00,Tarde,Atraso no recebimento,Sim,Baixa,127
+449,513,Separação,2026-01-29 19:08:00,Tarde,Falta de operador,Não,Baixa,44
+450,518,Separação,2026-05-23 18:20:00,Tarde,Ajuste de estoque,Não,Alta,10
+451,519,Carregamento,2026-03-02 03:59:00,Noite,Falha de WMS,Não,Alta,52
+452,519,Separação,2026-03-02 05:29:00,Noite,Falha de WMS,Não,Média,70
+453,519,Separação,2026-03-02 03:38:00,Noite,Ajuste de estoque,Não,Média,40
+454,520,Recebimento,2026-06-27 16:03:00,Tarde,Atraso no recebimento,Não,Baixa,16
+455,524,Conferência,2026-02-07 21:49:00,Tarde,Falha de scanner,Sim,Alta,101
+456,526,Separação,2026-03-05 00:23:00,Noite,Ajuste de estoque,Não,Baixa,43
+457,526,Carregamento,2026-03-05 00:44:00,Noite,Falta de caminhão,Não,Média,47
+458,526,Separação,2026-03-05 01:00:00,Noite,Separação incorreta,Não,Alta,12
+459,531,Recebimento,2026-06-22 02:22:00,Noite,Pedido incompleto,Não,Alta,17
+460,531,Recebimento,2026-06-22 02:25:00,Noite,Etiqueta divergente,Não,Média,22
+461,531,Separação,2026-06-22 01:53:00,Noite,Ajuste de estoque,Não,Média,163
+462,538,Expedição,2026-06-26 02:27:00,Noite,Carregamento fora do horário,Não,Alta,153
+463,538,Expedição,2026-06-26 02:52:00,Noite,Carregamento fora do horário,Sim,Alta,106
+464,538,Recebimento,2026-06-26 01:46:00,Noite,Etiqueta divergente,Sim,Média,121
+465,544,Recebimento,2026-05-10 20:53:00,Tarde,Atraso no recebimento,Sim,Alta,25
+466,544,Conferência,2026-05-10 21:03:00,Tarde,Conferência pendente,Não,Média,47
+467,545,Carregamento,2026-01-05 03:46:00,Noite,Falta de caminhão,Não,Média,79
+468,545,Separação,2026-01-05 04:03:00,Noite,Falha de WMS,Não,Média,51
+469,546,Recebimento,2026-03-26 09:37:00,Manhã,Atraso no recebimento,Não,Média,72
+470,550,Expedição,2026-01-15 16:46:00,Tarde,Atraso de transporte,Sim,Baixa,162
+471,552,Recebimento,2026-01-25 10:05:00,Manhã,Falta de operador,Não,Alta,27
+472,554,Carregamento,2026-05-26 17:03:00,Tarde,Falta de caminhão,Sim,Alta,73
+473,554,Recebimento,2026-05-26 16:37:00,Tarde,Etiqueta divergente,Não,Alta,89
+474,554,Separação,2026-05-26 15:42:00,Tarde,Falta de operador,Não,Baixa,84
+475,555,Separação,2026-03-16 13:51:00,Manhã,Falha de WMS,Sim,Alta,22
+476,555,Separação,2026-03-16 13:46:00,Manhã,Ajuste de estoque,Não,Média,67
+477,555,Recebimento,2026-03-16 12:36:00,Manhã,Falta de operador,Não,Média,56
+478,557,Conferência,2026-01-03 08:24:00,Manhã,Conferência pendente,Sim,Média,33
+479,557,Conferência,2026-01-03 07:04:00,Manhã,Pedido com divergência,Sim,Alta,28
+480,558,Carregamento,2026-02-08 02:20:00,Noite,Atraso de roteirização,Não,Média,61
+481,562,Separação,2026-06-12 16:40:00,Tarde,Falta de operador,Sim,Média,135
+482,562,Conferência,2026-06-12 14:55:00,Tarde,Conferência pendente,Sim,Média,31
+483,562,Carregamento,2026-06-12 14:57:00,Tarde,Falta de caminhão,Sim,Média,163
+484,564,Separação,2026-06-07 04:13:00,Noite,Falta de operador,Não,Alta,61
+485,566,Recebimento,2026-01-19 10:11:00,Manhã,Etiqueta divergente,Não,Baixa,83
+486,566,Carregamento,2026-01-19 09:29:00,Manhã,Falha de WMS,Não,Média,41
+487,566,Separação,2026-01-19 09:32:00,Manhã,Falta de operador,Não,Média,93
+488,569,Separação,2026-03-19 21:32:00,Tarde,Ajuste de estoque,Sim,Média,23
+489,569,Separação,2026-03-19 20:09:00,Tarde,Falha de WMS,Sim,Alta,73
+490,569,Recebimento,2026-03-19 20:57:00,Tarde,Pedido incompleto,Não,Média,60
+491,571,Expedição,2026-03-21 19:51:00,Tarde,Falha de documentação,Sim,Média,85
+492,571,Conferência,2026-03-21 20:30:00,Tarde,Conferência pendente,Não,Média,125
+493,571,Separação,2026-03-21 21:21:00,Tarde,Falha de WMS,Não,Baixa,14
+494,576,Recebimento,2026-03-21 20:58:00,Tarde,Etiqueta divergente,Não,Média,78
+495,577,Carregamento,2026-03-11 23:59:00,Noite,Falha operacional,Sim,Alta,79
+496,578,Separação,2026-03-15 11:47:00,Manhã,Separação incorreta,Sim,Média,18
+497,578,Carregamento,2026-03-15 12:46:00,Manhã,Falha de WMS,Sim,Alta,29
+498,578,Carregamento,2026-03-15 12:26:00,Manhã,Falha operacional,Sim,Alta,21
+499,581,Separação,2026-05-01 11:44:00,Manhã,Falha de WMS,Não,Baixa,142
+500,581,Carregamento,2026-05-01 10:28:00,Manhã,Atraso de roteirização,Sim,Baixa,159
+501,583,Carregamento,2026-03-26 07:31:00,Manhã,Falha operacional,Não,Alta,48
+502,583,Conferência,2026-03-26 07:25:00,Manhã,Conferência pendente,Não,Média,20
+503,587,Recebimento,2026-05-06 05:49:00,Noite,Falta de operador,Não,Alta,43
+504,587,Expedição,2026-05-06 04:29:00,Noite,Falha de documentação,Não,Média,73
+505,591,Conferência,2026-03-30 19:44:00,Tarde,Pedido com divergência,Sim,Baixa,37
+506,593,Recebimento,2026-03-24 20:30:00,Tarde,Pedido incompleto,Não,Alta,39
+507,593,Carregamento,2026-03-24 21:39:00,Tarde,Falha de WMS,Não,Média,147
+508,593,Recebimento,2026-03-24 20:29:00,Tarde,Atraso no recebimento,Não,Alta,15
+509,596,Carregamento,2026-06-10 06:37:00,Manhã,Falha operacional,Não,Baixa,36
+510,596,Separação,2026-06-10 05:45:00,Noite,Separação incorreta,Sim,Média,118
+511,596,Expedição,2026-06-10 05:07:00,Noite,Ponto de saída congestionado,Não,Média,170
+512,597,Separação,2026-03-03 17:18:00,Tarde,Separação incorreta,Não,Média,13
+513,597,Carregamento,2026-03-03 18:02:00,Tarde,Falha operacional,Sim,Média,41
+514,597,Recebimento,2026-03-03 19:42:00,Tarde,Falta de operador,Sim,Média,42
+515,601,Expedição,2026-05-28 22:43:00,Noite,Atraso de transporte,Não,Média,72
+516,601,Carregamento,2026-05-28 20:13:00,Tarde,Falta de caminhão,Não,Média,146
+517,601,Carregamento,2026-05-28 20:29:00,Tarde,Atraso de roteirização,Sim,Média,44
+518,602,Separação,2026-05-26 10:30:00,Manhã,Separação incorreta,Sim,Média,188
+519,602,Carregamento,2026-05-26 09:40:00,Manhã,Falha de WMS,Não,Média,122
+520,603,Separação,2026-01-22 23:14:00,Noite,Separação incorreta,Não,Média,55
+521,606,Carregamento,2026-04-10 05:44:00,Noite,Falta de caminhão,Não,Média,120
+522,612,Separação,2026-01-18 18:09:00,Tarde,Ajuste de estoque,Não,Baixa,31
+523,615,Carregamento,2026-04-28 07:52:00,Manhã,Falta de caminhão,Não,Média,35
+524,615,Carregamento,2026-04-28 07:02:00,Manhã,Falta de caminhão,Sim,Alta,29
+525,617,Conferência,2026-02-16 12:56:00,Manhã,Atraso de qualidade,Não,Baixa,13
+526,621,Conferência,2026-05-19 13:31:00,Manhã,Pedido com divergência,Não,Média,73
+527,622,Recebimento,2026-04-29 04:12:00,Noite,Falta de operador,Sim,Alta,97
+528,622,Separação,2026-04-29 03:33:00,Noite,Falta de operador,Não,Média,51
+529,629,Expedição,2026-02-22 16:43:00,Tarde,Atraso de transporte,Não,Média,26
+530,629,Recebimento,2026-02-22 14:32:00,Tarde,Pedido incompleto,Sim,Média,44
+531,629,Recebimento,2026-02-22 14:55:00,Tarde,Pedido incompleto,Sim,Baixa,36
+532,630,Separação,2026-03-27 22:41:00,Noite,Ajuste de estoque,Não,Média,43
+533,631,Separação,2026-01-27 20:11:00,Tarde,Falta de operador,Sim,Média,16
+534,631,Expedição,2026-01-27 20:10:00,Tarde,Carregamento fora do horário,Não,Média,22
+535,631,Separação,2026-01-27 20:18:00,Tarde,Falha de WMS,Não,Média,10
+536,635,Recebimento,2026-05-20 15:29:00,Tarde,Pedido incompleto,Não,Média,27
+537,635,Carregamento,2026-05-20 15:47:00,Tarde,Falha operacional,Sim,Alta,31
+538,635,Conferência,2026-05-20 14:52:00,Tarde,Atraso de qualidade,Não,Baixa,27
+539,636,Recebimento,2026-05-03 10:29:00,Manhã,Atraso no recebimento,Não,Alta,23
+540,638,Carregamento,2026-03-03 23:28:00,Noite,Atraso de roteirização,Sim,Alta,42
+541,638,Carregamento,2026-03-04 01:29:00,Noite,Atraso de roteirização,Não,Média,38
+542,639,Carregamento,2026-04-17 00:39:00,Noite,Atraso de roteirização,Não,Média,82
+543,639,Carregamento,2026-04-17 00:47:00,Noite,Falha de WMS,Sim,Alta,164
+544,639,Recebimento,2026-04-17 01:12:00,Noite,Atraso no recebimento,Sim,Alta,117
+545,640,Separação,2026-02-05 09:15:00,Manhã,Falta de operador,Sim,Alta,20
+546,646,Recebimento,2026-01-05 20:13:00,Tarde,Atraso no recebimento,Não,Média,101
+547,646,Separação,2026-01-05 20:22:00,Tarde,Falta de operador,Não,Baixa,24
+548,648,Conferência,2026-04-06 21:53:00,Tarde,Falha de scanner,Sim,Média,18
+549,648,Separação,2026-04-06 23:05:00,Noite,Falha de WMS,Não,Baixa,25
+550,648,Conferência,2026-04-06 23:26:00,Noite,Conferência pendente,Não,Baixa,18
+551,649,Expedição,2026-06-29 22:01:00,Noite,Atraso de transporte,Não,Alta,18
+552,649,Carregamento,2026-06-29 20:31:00,Tarde,Falha de WMS,Sim,Média,25
+553,649,Carregamento,2026-06-29 20:26:00,Tarde,Falha operacional,Sim,Média,30
+554,652,Separação,2026-05-30 16:15:00,Tarde,Separação incorreta,Não,Média,11
+555,652,Separação,2026-05-30 17:38:00,Tarde,Separação incorreta,Sim,Média,11
+556,652,Separação,2026-05-30 17:30:00,Tarde,Falta de operador,Não,Média,11
+557,653,Carregamento,2026-05-10 10:03:00,Manhã,Falta de caminhão,Não,Média,116
+558,655,Recebimento,2026-03-12 21:20:00,Tarde,Pedido incompleto,Não,Média,13
+559,655,Recebimento,2026-03-12 23:04:00,Noite,Pedido incompleto,Sim,Baixa,73
+560,655,Separação,2026-03-12 22:54:00,Noite,Falta de operador,Não,Baixa,69
+561,656,Conferência,2026-02-04 12:13:00,Manhã,Conferência pendente,Não,Baixa,21
+562,658,Separação,2026-04-25 16:06:00,Tarde,Ajuste de estoque,Sim,Média,19
+563,660,Separação,2026-02-16 00:19:00,Noite,Falta de operador,Sim,Alta,30
+564,660,Carregamento,2026-02-16 01:00:00,Noite,Falha operacional,Não,Alta,41
+565,660,Recebimento,2026-02-16 00:06:00,Noite,Falta de operador,Não,Baixa,26
+566,665,Separação,2026-02-06 13:46:00,Manhã,Falta de operador,Não,Alta,47
+567,665,Carregamento,2026-02-06 13:42:00,Manhã,Atraso de roteirização,Sim,Baixa,92
+568,670,Recebimento,2026-06-01 12:27:00,Manhã,Pedido incompleto,Não,Média,31
+569,670,Recebimento,2026-06-01 11:37:00,Manhã,Etiqueta divergente,Não,Média,124
+570,674,Expedição,2026-03-16 11:29:00,Manhã,Carregamento fora do horário,Sim,Baixa,30
+571,674,Conferência,2026-03-16 12:21:00,Manhã,Conferência pendente,Não,Média,12
+572,675,Separação,2026-05-05 15:44:00,Tarde,Ajuste de estoque,Sim,Alta,44
+573,675,Separação,2026-05-05 14:53:00,Tarde,Separação incorreta,Não,Média,107
+574,675,Recebimento,2026-05-05 15:49:00,Tarde,Falta de operador,Não,Média,147
+575,676,Expedição,2026-02-12 12:28:00,Manhã,Atraso de transporte,Não,Média,106
+576,676,Conferência,2026-02-12 12:55:00,Manhã,Falha de scanner,Não,Média,81
+577,676,Separação,2026-02-12 12:49:00,Manhã,Ajuste de estoque,Não,Baixa,69
+578,678,Expedição,2026-06-04 03:52:00,Noite,Falha de documentação,Não,Média,76
+579,678,Recebimento,2026-06-04 03:36:00,Noite,Etiqueta divergente,Não,Média,32
+580,679,Recebimento,2026-05-30 05:21:00,Noite,Falta de operador,Não,Média,15
+581,679,Separação,2026-05-30 05:50:00,Noite,Falta de operador,Não,Alta,43
+582,679,Expedição,2026-05-30 04:58:00,Noite,Ponto de saída congestionado,Não,Alta,50
+583,681,Carregamento,2026-01-31 05:49:00,Noite,Falha operacional,Sim,Média,65
+584,682,Separação,2026-06-03 14:23:00,Tarde,Ajuste de estoque,Sim,Média,145
+585,682,Separação,2026-06-03 13:01:00,Manhã,Falta de operador,Sim,Alta,53
+586,685,Expedição,2026-03-20 15:10:00,Tarde,Atraso de transporte,Não,Alta,13
+587,689,Expedição,2026-02-17 08:45:00,Manhã,Atraso de transporte,Não,Baixa,12
+588,689,Recebimento,2026-02-17 08:55:00,Manhã,Pedido incompleto,Não,Alta,61
+589,690,Separação,2026-04-04 21:20:00,Tarde,Falta de operador,Sim,Média,155
+590,690,Expedição,2026-04-04 21:49:00,Tarde,Atraso de transporte,Não,Baixa,158
+591,693,Separação,2026-02-07 14:26:00,Tarde,Falha de WMS,Sim,Média,53
+592,695,Separação,2026-06-15 12:47:00,Manhã,Separação incorreta,Não,Alta,83
+593,695,Carregamento,2026-06-15 12:57:00,Manhã,Falha operacional,Sim,Baixa,111
+594,699,Separação,2026-01-05 17:27:00,Tarde,Separação incorreta,Não,Alta,45
+595,699,Separação,2026-01-05 18:45:00,Tarde,Ajuste de estoque,Sim,Baixa,48
+596,699,Carregamento,2026-01-05 19:17:00,Tarde,Atraso de roteirização,Sim,Média,37
+597,700,Expedição,2026-03-20 20:54:00,Tarde,Ponto de saída congestionado,Não,Baixa,34
+598,702,Expedição,2026-06-08 18:31:00,Tarde,Atraso de transporte,Não,Média,76
+599,702,Separação,2026-06-08 18:23:00,Tarde,Falta de operador,Não,Média,14
+600,702,Separação,2026-06-08 16:00:00,Tarde,Falta de operador,Sim,Média,205
+601,704,Separação,2026-06-16 03:44:00,Noite,Separação incorreta,Sim,Alta,74
+602,705,Conferência,2026-04-20 16:47:00,Tarde,Falha de scanner,Não,Baixa,23
+603,705,Recebimento,2026-04-20 16:12:00,Tarde,Pedido incompleto,Não,Alta,45
+604,706,Carregamento,2026-05-07 06:21:00,Manhã,Atraso de roteirização,Sim,Baixa,66
+605,706,Conferência,2026-05-07 05:25:00,Noite,Falha de scanner,Não,Baixa,110
+606,706,Recebimento,2026-05-07 06:20:00,Manhã,Pedido incompleto,Não,Média,93
+607,707,Separação,2026-02-22 09:19:00,Manhã,Falha de WMS,Não,Baixa,89
+608,709,Expedição,2026-03-30 23:24:00,Noite,Atraso de transporte,Sim,Média,30
+609,710,Recebimento,2026-06-22 08:41:00,Manhã,Etiqueta divergente,Não,Média,150
+610,710,Recebimento,2026-06-22 08:23:00,Manhã,Pedido incompleto,Não,Alta,93
+611,710,Separação,2026-06-22 09:47:00,Manhã,Falta de operador,Sim,Baixa,128
+612,712,Recebimento,2026-04-05 09:22:00,Manhã,Falta de operador,Não,Baixa,14
+613,712,Conferência,2026-04-05 09:30:00,Manhã,Pedido com divergência,Sim,Baixa,33
+614,712,Expedição,2026-04-05 08:05:00,Manhã,Atraso de transporte,Não,Alta,30
+615,713,Recebimento,2026-03-11 02:19:00,Noite,Falta de operador,Não,Média,27
+616,713,Conferência,2026-03-11 04:01:00,Noite,Conferência pendente,Não,Média,18
+617,714,Separação,2026-04-30 13:35:00,Manhã,Falta de operador,Não,Alta,66
+618,714,Separação,2026-04-30 14:59:00,Tarde,Falta de operador,Sim,Alta,13
+619,715,Conferência,2026-05-21 20:43:00,Tarde,Conferência pendente,Não,Alta,170
+620,716,Expedição,2026-04-16 13:31:00,Manhã,Atraso de transporte,Sim,Média,36
+621,717,Separação,2026-02-01 17:29:00,Tarde,Separação incorreta,Sim,Média,16
+622,727,Conferência,2026-02-04 19:06:00,Tarde,Atraso de qualidade,Não,Alta,140
+623,727,Separação,2026-02-04 19:59:00,Tarde,Separação incorreta,Não,Alta,112
+624,727,Expedição,2026-02-04 19:30:00,Tarde,Falha de documentação,Não,Alta,169
+625,728,Expedição,2026-02-04 19:07:00,Tarde,Carregamento fora do horário,Não,Alta,27
+626,728,Carregamento,2026-02-04 18:47:00,Tarde,Falta de caminhão,Não,Média,47
+627,730,Conferência,2026-01-07 17:45:00,Tarde,Pedido com divergência,Não,Alta,42
+628,735,Conferência,2026-06-26 13:01:00,Manhã,Pedido com divergência,Não,Baixa,30
+629,735,Carregamento,2026-06-26 13:02:00,Manhã,Atraso de roteirização,Sim,Alta,66
+630,737,Carregamento,2026-06-22 10:28:00,Manhã,Falha de WMS,Sim,Média,91
+631,737,Separação,2026-06-22 11:31:00,Manhã,Falta de operador,Sim,Média,110
+632,737,Recebimento,2026-06-22 11:10:00,Manhã,Atraso no recebimento,Não,Média,21
+633,738,Recebimento,2026-01-12 14:42:00,Tarde,Etiqueta divergente,Não,Média,20
+634,739,Recebimento,2026-03-08 19:32:00,Tarde,Falta de operador,Sim,Média,96
+635,739,Conferência,2026-03-08 19:51:00,Tarde,Conferência pendente,Não,Alta,77
+636,739,Conferência,2026-03-08 19:30:00,Tarde,Falha de scanner,Não,Alta,61
+637,744,Carregamento,2026-06-20 17:53:00,Tarde,Falta de caminhão,Não,Alta,56
+638,744,Recebimento,2026-06-20 19:02:00,Tarde,Atraso no recebimento,Sim,Média,81
+639,746,Carregamento,2026-01-22 15:45:00,Tarde,Falta de caminhão,Sim,Média,19
+640,747,Carregamento,2026-03-26 23:10:00,Noite,Falha de WMS,Não,Média,14
+641,747,Recebimento,2026-03-27 01:18:00,Noite,Etiqueta divergente,Não,Alta,16
+642,747,Recebimento,2026-03-27 00:00:00,Noite,Atraso no recebimento,Sim,Média,28
+643,748,Conferência,2026-06-05 08:56:00,Manhã,Atraso de qualidade,Sim,Média,70
+644,748,Recebimento,2026-06-05 10:37:00,Manhã,Falta de operador,Não,Média,58
+645,748,Conferência,2026-06-05 11:06:00,Manhã,Falha de scanner,Não,Alta,45
+646,755,Recebimento,2026-04-17 07:11:00,Manhã,Etiqueta divergente,Não,Alta,49
+647,755,Carregamento,2026-04-17 07:07:00,Manhã,Atraso de roteirização,Não,Alta,139
+648,756,Recebimento,2026-04-30 01:40:00,Noite,Etiqueta divergente,Não,Média,103
+649,756,Expedição,2026-04-29 23:17:00,Noite,Ponto de saída congestionado,Sim,Média,67
+650,757,Conferência,2026-04-27 14:32:00,Tarde,Falha de scanner,Não,Baixa,145
+651,757,Conferência,2026-04-27 16:40:00,Tarde,Atraso de qualidade,Não,Média,129
+652,763,Carregamento,2026-01-07 10:03:00,Manhã,Falha operacional,Sim,Média,37
+653,763,Recebimento,2026-01-07 08:32:00,Manhã,Etiqueta divergente,Não,Média,19
+654,763,Recebimento,2026-01-07 10:36:00,Manhã,Falta de operador,Não,Média,34
+655,764,Separação,2026-04-18 17:57:00,Tarde,Falha de WMS,Sim,Média,68
+656,764,Recebimento,2026-04-18 18:03:00,Tarde,Atraso no recebimento,Não,Alta,11
+657,765,Carregamento,2026-06-24 08:22:00,Manhã,Falha de WMS,Não,Média,138
+658,766,Recebimento,2026-05-08 16:39:00,Tarde,Etiqueta divergente,Sim,Alta,37
+659,767,Expedição,2026-06-01 22:01:00,Noite,Atraso de transporte,Não,Baixa,108
+660,767,Conferência,2026-06-01 23:51:00,Noite,Falha de scanner,Não,Média,111
+661,768,Separação,2026-06-23 18:45:00,Tarde,Separação incorreta,Não,Média,121
+662,768,Conferência,2026-06-23 19:19:00,Tarde,Conferência pendente,Não,Alta,103
+663,768,Conferência,2026-06-23 17:28:00,Tarde,Atraso de qualidade,Sim,Baixa,39
+664,773,Expedição,2026-04-24 07:53:00,Manhã,Falha de documentação,Sim,Média,12
+665,773,Separação,2026-04-24 08:27:00,Manhã,Separação incorreta,Não,Alta,50
+666,779,Carregamento,2026-05-13 22:08:00,Noite,Falha operacional,Não,Alta,28
+667,779,Recebimento,2026-05-13 22:54:00,Noite,Pedido incompleto,Não,Média,10
+668,788,Expedição,2026-06-03 04:28:00,Noite,Ponto de saída congestionado,Não,Baixa,11
+669,788,Separação,2026-06-03 02:32:00,Noite,Falta de operador,Sim,Alta,58
+670,790,Conferência,2026-01-24 20:32:00,Tarde,Falha de scanner,Não,Média,113
+671,790,Conferência,2026-01-24 20:49:00,Tarde,Conferência pendente,Não,Média,150
+672,793,Recebimento,2026-02-25 06:02:00,Manhã,Falta de operador,Não,Média,73
+673,798,Separação,2026-03-26 04:53:00,Noite,Ajuste de estoque,Não,Alta,23
+674,798,Carregamento,2026-03-26 04:48:00,Noite,Falta de caminhão,Sim,Média,13
+675,799,Conferência,2026-03-14 14:59:00,Tarde,Conferência pendente,Não,Média,35
+676,805,Separação,2026-01-08 19:06:00,Tarde,Separação incorreta,Não,Baixa,33
+677,806,Recebimento,2026-06-03 18:45:00,Tarde,Atraso no recebimento,Sim,Média,86
+678,806,Separação,2026-06-03 17:40:00,Tarde,Falta de operador,Sim,Média,47
+679,816,Carregamento,2026-06-17 19:54:00,Tarde,Atraso de roteirização,Não,Média,69
+680,816,Separação,2026-06-17 18:36:00,Tarde,Falta de operador,Não,Baixa,36
+681,818,Carregamento,2026-06-25 17:14:00,Tarde,Falha de WMS,Não,Média,133
+682,819,Expedição,2026-05-09 00:16:00,Noite,Ponto de saída congestionado,Não,Baixa,22
+683,819,Separação,2026-05-08 23:11:00,Noite,Falta de operador,Não,Alta,66
+684,819,Separação,2026-05-08 23:30:00,Noite,Falta de operador,Não,Média,68
+685,820,Separação,2026-05-23 09:04:00,Manhã,Falta de operador,Sim,Média,34
+686,820,Separação,2026-05-23 07:17:00,Manhã,Separação incorreta,Não,Baixa,26
+687,820,Carregamento,2026-05-23 08:34:00,Manhã,Atraso de roteirização,Não,Média,10
+688,822,Conferência,2026-06-25 16:03:00,Tarde,Pedido com divergência,Sim,Alta,100
+689,822,Separação,2026-06-25 17:31:00,Tarde,Falta de operador,Não,Média,63
+690,826,Recebimento,2026-05-04 05:38:00,Noite,Etiqueta divergente,Não,Média,131
+691,826,Conferência,2026-05-04 04:50:00,Noite,Pedido com divergência,Não,Média,110
+692,826,Conferência,2026-05-04 04:57:00,Noite,Conferência pendente,Não,Alta,70
+693,828,Recebimento,2026-01-22 18:51:00,Tarde,Etiqueta divergente,Não,Média,28
+694,828,Separação,2026-01-22 16:58:00,Tarde,Separação incorreta,Não,Média,119
+695,829,Separação,2026-04-22 02:26:00,Noite,Falta de operador,Sim,Média,198
+696,829,Separação,2026-04-22 04:25:00,Noite,Separação incorreta,Não,Alta,137
+697,830,Separação,2026-06-19 18:30:00,Tarde,Falta de operador,Não,Média,17
+698,830,Separação,2026-06-19 17:45:00,Tarde,Falha de WMS,Sim,Baixa,63
+699,830,Carregamento,2026-06-19 17:12:00,Tarde,Falha operacional,Não,Média,25
+700,832,Recebimento,2026-05-28 03:48:00,Noite,Atraso no recebimento,Não,Baixa,14
+701,832,Carregamento,2026-05-28 05:16:00,Noite,Atraso de roteirização,Não,Baixa,41
+702,832,Recebimento,2026-05-28 04:26:00,Noite,Falta de operador,Sim,Alta,33
+703,834,Separação,2026-03-22 15:42:00,Tarde,Ajuste de estoque,Não,Média,57
+704,835,Expedição,2026-01-15 09:17:00,Manhã,Falha de documentação,Sim,Média,55
+705,836,Recebimento,2026-06-04 23:57:00,Noite,Falta de operador,Não,Alta,111
+706,837,Recebimento,2026-05-08 00:01:00,Noite,Atraso no recebimento,Sim,Média,136
+707,837,Carregamento,2026-05-08 01:12:00,Noite,Falta de caminhão,Sim,Baixa,128
+708,837,Expedição,2026-05-07 23:48:00,Noite,Ponto de saída congestionado,Não,Baixa,59
+709,838,Expedição,2026-04-08 00:59:00,Noite,Atraso de transporte,Não,Alta,28
+710,838,Conferência,2026-04-08 01:17:00,Noite,Conferência pendente,Não,Baixa,27
+711,839,Conferência,2026-06-12 16:07:00,Tarde,Atraso de qualidade,Sim,Média,66
+712,839,Separação,2026-06-12 16:37:00,Tarde,Falta de operador,Sim,Média,82
+713,841,Carregamento,2026-06-17 22:18:00,Noite,Falha operacional,Sim,Baixa,99
+714,847,Carregamento,2026-05-03 07:52:00,Manhã,Atraso de roteirização,Sim,Média,24
+715,847,Carregamento,2026-05-03 07:30:00,Manhã,Falta de caminhão,Não,Alta,41
+716,847,Separação,2026-05-03 06:12:00,Manhã,Ajuste de estoque,Não,Baixa,34
+717,848,Separação,2026-02-26 08:42:00,Manhã,Falta de operador,Não,Baixa,120
+718,850,Separação,2026-05-09 07:57:00,Manhã,Separação incorreta,Não,Média,15
+719,850,Conferência,2026-05-09 07:25:00,Manhã,Conferência pendente,Não,Média,33
+720,850,Conferência,2026-05-09 08:28:00,Manhã,Pedido com divergência,Não,Média,27
+721,853,Separação,2026-05-21 04:39:00,Noite,Falta de operador,Não,Alta,15
+722,853,Recebimento,2026-05-21 02:59:00,Noite,Pedido incompleto,Não,Alta,53
+723,859,Recebimento,2026-06-06 15:53:00,Tarde,Falta de operador,Não,Alta,29
+724,859,Expedição,2026-06-06 15:42:00,Tarde,Atraso de transporte,Sim,Média,12
+725,859,Conferência,2026-06-06 16:14:00,Tarde,Conferência pendente,Sim,Baixa,23
+726,864,Recebimento,2026-06-01 08:47:00,Manhã,Falta de operador,Sim,Baixa,57
+727,866,Carregamento,2026-03-31 17:48:00,Tarde,Falha de WMS,Sim,Alta,67
+728,866,Expedição,2026-03-31 17:41:00,Tarde,Atraso de transporte,Sim,Média,139
+729,866,Carregamento,2026-03-31 18:45:00,Tarde,Atraso de roteirização,Não,Média,59
+730,870,Separação,2026-05-10 16:51:00,Tarde,Falta de operador,Não,Baixa,64
+731,871,Recebimento,2026-01-04 02:10:00,Noite,Pedido incompleto,Não,Alta,175
+732,872,Recebimento,2026-02-06 12:08:00,Manhã,Atraso no recebimento,Não,Baixa,47
+733,878,Separação,2026-02-24 16:20:00,Tarde,Falta de operador,Não,Alta,166
+734,883,Conferência,2026-05-10 09:44:00,Manhã,Atraso de qualidade,Sim,Alta,61
+735,883,Separação,2026-05-10 10:33:00,Manhã,Separação incorreta,Não,Média,18
+736,883,Expedição,2026-05-10 11:46:00,Manhã,Carregamento fora do horário,Não,Média,21
+737,884,Separação,2026-01-17 04:35:00,Noite,Separação incorreta,Não,Baixa,43
+738,884,Separação,2026-01-17 02:54:00,Noite,Separação incorreta,Sim,Média,194
+739,884,Separação,2026-01-17 03:06:00,Noite,Ajuste de estoque,Não,Baixa,140
+740,885,Expedição,2026-03-27 00:39:00,Noite,Atraso de transporte,Não,Baixa,13
+741,885,Expedição,2026-03-27 02:07:00,Noite,Carregamento fora do horário,Não,Média,10
+742,885,Conferência,2026-03-27 02:29:00,Noite,Conferência pendente,Não,Média,27
+743,890,Recebimento,2026-05-29 08:39:00,Manhã,Falta de operador,Sim,Média,52
+744,890,Separação,2026-05-29 09:21:00,Manhã,Falta de operador,Sim,Alta,22
+745,892,Conferência,2026-01-23 08:14:00,Manhã,Conferência pendente,Não,Média,85
+746,892,Separação,2026-01-23 10:01:00,Manhã,Falta de operador,Não,Baixa,42
+747,892,Carregamento,2026-01-23 08:25:00,Manhã,Falta de caminhão,Não,Média,42
+748,897,Carregamento,2026-03-05 13:15:00,Manhã,Falta de caminhão,Não,Média,11
+749,897,Separação,2026-03-05 13:03:00,Manhã,Separação incorreta,Sim,Média,107
+750,897,Carregamento,2026-03-05 11:50:00,Manhã,Falta de caminhão,Não,Alta,160
+751,901,Expedição,2026-06-13 15:20:00,Tarde,Carregamento fora do horário,Não,Média,17
+752,901,Recebimento,2026-06-13 17:14:00,Tarde,Pedido incompleto,Não,Alta,45
+753,901,Recebimento,2026-06-13 17:38:00,Tarde,Pedido incompleto,Não,Alta,77
+754,904,Separação,2026-02-21 19:36:00,Tarde,Falha de WMS,Não,Média,121
+755,904,Conferência,2026-02-21 20:36:00,Tarde,Pedido com divergência,Não,Baixa,140
+756,904,Separação,2026-02-21 21:22:00,Tarde,Separação incorreta,Não,Média,65
+757,908,Carregamento,2026-04-21 11:54:00,Manhã,Falha operacional,Não,Média,81
+758,908,Recebimento,2026-04-21 13:03:00,Manhã,Falta de operador,Sim,Baixa,33
+759,908,Separação,2026-04-21 14:16:00,Tarde,Falha de WMS,Não,Alta,48
+760,911,Recebimento,2026-05-03 19:23:00,Tarde,Pedido incompleto,Não,Alta,175
+761,911,Recebimento,2026-05-03 17:36:00,Tarde,Atraso no recebimento,Não,Média,80
+762,912,Separação,2026-03-26 17:53:00,Tarde,Separação incorreta,Sim,Baixa,116
+763,916,Recebimento,2026-04-23 15:25:00,Tarde,Etiqueta divergente,Sim,Média,43
+764,916,Expedição,2026-04-23 15:28:00,Tarde,Falha de documentação,Não,Média,34
+765,918,Recebimento,2026-05-29 22:25:00,Noite,Atraso no recebimento,Sim,Alta,167
+766,920,Recebimento,2026-01-31 13:59:00,Manhã,Etiqueta divergente,Sim,Média,61
+767,923,Conferência,2026-06-04 11:34:00,Manhã,Conferência pendente,Não,Baixa,161
+768,923,Separação,2026-06-04 10:29:00,Manhã,Ajuste de estoque,Não,Baixa,145
+769,923,Recebimento,2026-06-04 10:27:00,Manhã,Pedido incompleto,Sim,Média,38
+770,927,Carregamento,2026-04-11 21:20:00,Tarde,Atraso de roteirização,Não,Média,18
+771,927,Separação,2026-04-11 23:20:00,Noite,Falta de operador,Não,Média,10
+772,927,Conferência,2026-04-11 21:50:00,Tarde,Conferência pendente,Sim,Média,38
+773,928,Conferência,2026-01-15 20:43:00,Tarde,Atraso de qualidade,Sim,Alta,22
+774,928,Carregamento,2026-01-15 22:59:00,Noite,Falta de caminhão,Não,Média,28
+775,931,Recebimento,2026-05-13 20:38:00,Tarde,Pedido incompleto,Não,Alta,59
+776,931,Separação,2026-05-13 21:16:00,Tarde,Ajuste de estoque,Sim,Alta,68
+777,931,Recebimento,2026-05-13 21:42:00,Tarde,Pedido incompleto,Não,Média,63
+778,933,Separação,2026-06-17 14:17:00,Tarde,Falha de WMS,Não,Baixa,21
+779,934,Carregamento,2026-01-07 20:22:00,Tarde,Atraso de roteirização,Sim,Média,140
+780,934,Conferência,2026-01-07 18:43:00,Tarde,Conferência pendente,Não,Média,58
+781,935,Separação,2026-03-19 10:26:00,Manhã,Falta de operador,Sim,Média,88
+782,938,Carregamento,2026-01-12 00:39:00,Noite,Falta de caminhão,Sim,Média,37
+783,938,Carregamento,2026-01-12 00:40:00,Noite,Falha operacional,Não,Média,38
+784,940,Carregamento,2026-05-18 15:25:00,Tarde,Falta de caminhão,Não,Alta,104
+785,940,Carregamento,2026-05-18 14:29:00,Tarde,Falha de WMS,Não,Média,81
+786,940,Conferência,2026-05-18 16:06:00,Tarde,Conferência pendente,Não,Alta,26
+787,941,Recebimento,2026-06-19 18:14:00,Tarde,Atraso no recebimento,Sim,Média,96
+788,941,Conferência,2026-06-19 16:50:00,Tarde,Conferência pendente,Sim,Média,81
+789,941,Separação,2026-06-19 18:16:00,Tarde,Falha de WMS,Sim,Alta,158
+790,942,Separação,2026-02-03 21:47:00,Tarde,Falta de operador,Sim,Média,92
+791,944,Separação,2026-04-07 20:45:00,Tarde,Falta de operador,Não,Alta,76
+792,944,Separação,2026-04-07 20:02:00,Tarde,Falta de operador,Não,Média,79
+793,944,Carregamento,2026-04-07 21:18:00,Tarde,Atraso de roteirização,Não,Média,63
+794,946,Recebimento,2026-03-28 02:40:00,Noite,Atraso no recebimento,Não,Alta,14
+795,946,Separação,2026-03-28 02:03:00,Noite,Falta de operador,Não,Alta,12
+796,948,Recebimento,2026-05-23 01:32:00,Noite,Pedido incompleto,Não,Baixa,142
+797,951,Separação,2026-04-19 17:35:00,Tarde,Falha de WMS,Não,Média,40
+798,951,Separação,2026-04-19 17:01:00,Tarde,Falha de WMS,Sim,Alta,39
+799,952,Separação,2026-03-01 03:02:00,Noite,Falta de operador,Não,Média,16
+800,952,Separação,2026-03-01 02:08:00,Noite,Falha de WMS,Sim,Média,189
+801,952,Carregamento,2026-03-01 03:34:00,Noite,Atraso de roteirização,Não,Baixa,56
+802,954,Separação,2026-02-05 16:56:00,Tarde,Ajuste de estoque,Não,Alta,167
+803,954,Recebimento,2026-02-05 16:39:00,Tarde,Pedido incompleto,Não,Média,65
+804,957,Carregamento,2026-02-14 19:21:00,Tarde,Falha operacional,Não,Alta,46
+805,957,Separação,2026-02-14 19:53:00,Tarde,Falta de operador,Não,Média,42
+806,957,Carregamento,2026-02-14 19:16:00,Tarde,Atraso de roteirização,Não,Média,30
+807,959,Carregamento,2026-03-21 14:12:00,Tarde,Falha operacional,Sim,Alta,126
+808,960,Separação,2026-01-28 18:50:00,Tarde,Ajuste de estoque,Não,Alta,149
+809,962,Conferência,2026-03-11 06:20:00,Manhã,Pedido com divergência,Não,Baixa,25
+810,962,Carregamento,2026-03-11 05:17:00,Noite,Falha de WMS,Não,Alta,13
+811,965,Separação,2026-04-14 15:37:00,Tarde,Ajuste de estoque,Sim,Alta,30
+812,965,Conferência,2026-04-14 15:26:00,Tarde,Pedido com divergência,Não,Média,49
+813,966,Conferência,2026-01-15 18:27:00,Tarde,Atraso de qualidade,Não,Média,33
+814,966,Separação,2026-01-15 17:36:00,Tarde,Ajuste de estoque,Não,Alta,88
+815,970,Separação,2026-01-24 23:26:00,Noite,Separação incorreta,Sim,Média,70
+816,970,Expedição,2026-01-24 23:12:00,Noite,Atraso de transporte,Não,Média,14
+817,970,Recebimento,2026-01-25 00:36:00,Noite,Pedido incompleto,Não,Média,16
+818,971,Conferência,2026-01-15 05:12:00,Noite,Conferência pendente,Não,Média,10
+819,971,Separação,2026-01-15 06:00:00,Manhã,Ajuste de estoque,Sim,Alta,17
+820,972,Expedição,2026-06-20 18:04:00,Tarde,Ponto de saída congestionado,Não,Média,23
+821,972,Conferência,2026-06-20 17:12:00,Tarde,Falha de scanner,Não,Média,116
+822,972,Separação,2026-06-20 16:54:00,Tarde,Ajuste de estoque,Não,Média,79
+823,976,Separação,2026-05-21 17:07:00,Tarde,Falta de operador,Não,Alta,13
+824,976,Recebimento,2026-05-21 15:26:00,Tarde,Etiqueta divergente,Não,Média,19
+825,976,Expedição,2026-05-21 14:45:00,Tarde,Ponto de saída congestionado,Sim,Baixa,38
+826,979,Recebimento,2026-06-28 06:06:00,Manhã,Falta de operador,Não,Média,86
+827,982,Separação,2026-01-13 11:39:00,Manhã,Falta de operador,Não,Média,26
+828,983,Expedição,2026-02-24 08:19:00,Manhã,Falha de documentação,Não,Média,145
+829,983,Recebimento,2026-02-24 10:23:00,Manhã,Atraso no recebimento,Sim,Alta,85
+830,983,Carregamento,2026-02-24 09:26:00,Manhã,Atraso de roteirização,Não,Baixa,14
+831,987,Recebimento,2026-02-23 17:32:00,Tarde,Pedido incompleto,Não,Alta,57
+832,987,Conferência,2026-02-23 16:14:00,Tarde,Pedido com divergência,Sim,Média,10
+833,988,Expedição,2026-02-18 07:31:00,Manhã,Ponto de saída congestionado,Não,Média,17
+834,988,Recebimento,2026-02-18 06:38:00,Manhã,Pedido incompleto,Sim,Média,43
+835,989,Carregamento,2026-02-18 18:21:00,Tarde,Falta de caminhão,Não,Média,54
+836,992,Separação,2026-03-29 16:35:00,Tarde,Ajuste de estoque,Sim,Média,86
+837,992,Separação,2026-03-29 18:12:00,Tarde,Falha de WMS,Sim,Alta,97
+838,993,Expedição,2026-05-21 23:08:00,Noite,Atraso de transporte,Não,Média,46
+839,993,Separação,2026-05-22 00:41:00,Noite,Falha de WMS,Sim,Média,33
+840,996,Expedição,2026-06-08 07:24:00,Manhã,Carregamento fora do horário,Sim,Média,44
+841,997,Separação,2026-06-24 14:22:00,Tarde,Ajuste de estoque,Sim,Média,124
+842,997,Recebimento,2026-06-24 15:22:00,Tarde,Atraso no recebimento,Sim,Média,88
+843,997,Recebimento,2026-06-24 15:55:00,Tarde,Pedido incompleto,Sim,Alta,122
+844,1002,Carregamento,2026-05-30 21:21:00,Tarde,Falta de caminhão,Não,Alta,99
+845,1002,Separação,2026-05-30 23:27:00,Noite,Ajuste de estoque,Não,Baixa,101
+846,1004,Separação,2026-02-06 04:49:00,Noite,Separação incorreta,Não,Alta,61
+847,1004,Separação,2026-02-06 03:09:00,Noite,Ajuste de estoque,Sim,Baixa,61
+848,1004,Carregamento,2026-02-06 05:16:00,Noite,Falha operacional,Não,Média,19
+849,1006,Separação,2026-01-20 18:07:00,Tarde,Falta de operador,Não,Alta,15
+850,1009,Carregamento,2026-01-04 10:38:00,Manhã,Atraso de roteirização,Não,Média,52
+851,1010,Conferência,2026-04-19 22:43:00,Noite,Conferência pendente,Não,Baixa,24
+852,1010,Expedição,2026-04-19 22:49:00,Noite,Carregamento fora do horário,Sim,Alta,22
+853,1011,Expedição,2026-05-25 14:33:00,Tarde,Falha de documentação,Não,Baixa,104
+854,1011,Conferência,2026-05-25 14:20:00,Tarde,Atraso de qualidade,Sim,Média,80
+855,1011,Carregamento,2026-05-25 13:42:00,Manhã,Atraso de roteirização,Não,Média,73
+856,1012,Conferência,2026-06-16 09:24:00,Manhã,Pedido com divergência,Sim,Baixa,42
+857,1012,Conferência,2026-06-16 08:37:00,Manhã,Conferência pendente,Não,Alta,22
+858,1014,Separação,2026-01-23 10:15:00,Manhã,Separação incorreta,Não,Média,29
+859,1014,Expedição,2026-01-23 09:34:00,Manhã,Carregamento fora do horário,Sim,Baixa,48
+860,1016,Conferência,2026-04-16 17:18:00,Tarde,Falha de scanner,Não,Baixa,167
+861,1020,Carregamento,2026-02-24 12:20:00,Manhã,Falta de caminhão,Não,Média,14
+862,1020,Carregamento,2026-02-24 13:26:00,Manhã,Falha operacional,Sim,Média,12
+863,1020,Separação,2026-02-24 13:08:00,Manhã,Ajuste de estoque,Sim,Alta,79
+864,1024,Recebimento,2026-04-05 18:47:00,Tarde,Etiqueta divergente,Não,Média,181
+865,1024,Separação,2026-04-05 17:03:00,Tarde,Falta de operador,Sim,Baixa,168
+866,1025,Conferência,2026-01-16 18:35:00,Tarde,Conferência pendente,Sim,Alta,11
+867,1025,Conferência,2026-01-16 19:38:00,Tarde,Pedido com divergência,Não,Alta,16
+868,1025,Conferência,2026-01-16 20:27:00,Tarde,Conferência pendente,Não,Alta,46
+869,1027,Expedição,2026-01-22 22:07:00,Noite,Falha de documentação,Não,Alta,22
+870,1027,Conferência,2026-01-22 22:20:00,Noite,Atraso de qualidade,Não,Média,30
+871,1027,Expedição,2026-01-22 23:43:00,Noite,Carregamento fora do horário,Não,Alta,23
+872,1030,Separação,2026-01-15 00:42:00,Noite,Separação incorreta,Não,Média,10
+873,1030,Separação,2026-01-14 23:16:00,Noite,Falha de WMS,Não,Baixa,15
+874,1030,Separação,2026-01-14 22:47:00,Noite,Ajuste de estoque,Não,Média,22
+875,1035,Recebimento,2026-06-23 14:23:00,Tarde,Pedido incompleto,Sim,Baixa,73
+876,1036,Recebimento,2026-01-11 02:55:00,Noite,Pedido incompleto,Não,Baixa,12
+877,1036,Recebimento,2026-01-11 03:07:00,Noite,Falta de operador,Não,Média,56
+878,1037,Conferência,2026-05-28 20:28:00,Tarde,Pedido com divergência,Sim,Baixa,86
+879,1038,Separação,2026-04-17 11:23:00,Manhã,Falta de operador,Sim,Média,80
+880,1038,Conferência,2026-04-17 12:10:00,Manhã,Falha de scanner,Não,Média,78
+881,1038,Separação,2026-04-17 11:01:00,Manhã,Falta de operador,Sim,Baixa,123
+882,1039,Conferência,2026-02-12 15:22:00,Tarde,Pedido com divergência,Sim,Alta,28
+883,1043,Conferência,2026-06-16 21:27:00,Tarde,Atraso de qualidade,Não,Alta,32
+884,1043,Separação,2026-06-16 19:47:00,Tarde,Falta de operador,Não,Média,30
+885,1046,Separação,2026-06-08 12:36:00,Manhã,Falta de operador,Sim,Alta,152
+886,1046,Carregamento,2026-06-08 12:59:00,Manhã,Falha de WMS,Sim,Alta,196
+887,1049,Carregamento,2026-06-02 05:56:00,Noite,Falta de caminhão,Sim,Alta,168
+888,1049,Separação,2026-06-02 06:35:00,Manhã,Separação incorreta,Não,Alta,22
+889,1049,Conferência,2026-06-02 04:01:00,Noite,Atraso de qualidade,Sim,Baixa,72
+890,1050,Conferência,2026-06-12 06:26:00,Manhã,Conferência pendente,Sim,Média,12
+891,1051,Conferência,2026-03-12 22:13:00,Noite,Falha de scanner,Sim,Baixa,148
+892,1052,Conferência,2026-03-09 22:31:00,Noite,Falha de scanner,Não,Alta,11
+893,1056,Conferência,2026-05-14 11:35:00,Manhã,Atraso de qualidade,Não,Média,45
+894,1057,Expedição,2026-02-03 07:37:00,Manhã,Ponto de saída congestionado,Não,Baixa,110
+895,1057,Separação,2026-02-03 07:10:00,Manhã,Falha de WMS,Sim,Alta,82
+896,1057,Conferência,2026-02-03 06:36:00,Manhã,Falha de scanner,Não,Alta,97
+897,1058,Separação,2026-04-13 23:31:00,Noite,Falta de operador,Não,Média,77
+898,1058,Carregamento,2026-04-14 00:52:00,Noite,Falha de WMS,Não,Alta,120
+899,1058,Separação,2026-04-14 01:17:00,Noite,Separação incorreta,Não,Alta,20
+900,1065,Recebimento,2026-06-22 03:47:00,Noite,Atraso no recebimento,Não,Média,27
+901,1065,Carregamento,2026-06-22 05:58:00,Noite,Atraso de roteirização,Não,Média,17
+902,1065,Recebimento,2026-06-22 03:54:00,Noite,Falta de operador,Não,Média,13
+903,1068,Conferência,2026-03-29 14:09:00,Tarde,Pedido com divergência,Sim,Baixa,112
+904,1068,Separação,2026-03-29 12:14:00,Manhã,Falha de WMS,Não,Média,85
+905,1070,Carregamento,2026-04-07 10:15:00,Manhã,Falha operacional,Sim,Média,163
+906,1070,Expedição,2026-04-07 11:36:00,Manhã,Ponto de saída congestionado,Não,Média,192
+907,1072,Separação,2026-01-12 21:36:00,Tarde,Falha de WMS,Não,Média,183
+908,1072,Carregamento,2026-01-12 22:12:00,Noite,Atraso de roteirização,Sim,Alta,84
+909,1074,Carregamento,2026-06-22 04:29:00,Noite,Atraso de roteirização,Sim,Média,79
+910,1074,Separação,2026-06-22 03:42:00,Noite,Falha de WMS,Não,Baixa,114
+911,1080,Separação,2026-01-30 06:54:00,Manhã,Falha de WMS,Não,Baixa,24
+912,1081,Recebimento,2026-04-22 05:12:00,Noite,Pedido incompleto,Sim,Baixa,25
+913,1083,Expedição,2026-01-14 13:23:00,Manhã,Atraso de transporte,Não,Baixa,23
+914,1083,Separação,2026-01-14 13:25:00,Manhã,Falta de operador,Sim,Alta,104
+915,1083,Recebimento,2026-01-14 14:28:00,Tarde,Etiqueta divergente,Sim,Média,78
+916,1085,Conferência,2026-02-14 06:57:00,Manhã,Falha de scanner,Não,Média,161
+917,1086,Expedição,2026-06-27 04:08:00,Noite,Atraso de transporte,Não,Baixa,14
+918,1090,Conferência,2026-03-08 17:00:00,Tarde,Conferência pendente,Não,Média,104
+919,1091,Separação,2026-06-03 11:04:00,Manhã,Falha de WMS,Não,Média,33
+920,1091,Expedição,2026-06-03 12:44:00,Manhã,Atraso de transporte,Não,Média,27
+921,1091,Carregamento,2026-06-03 12:11:00,Manhã,Falha de WMS,Não,Média,42
+922,1092,Expedição,2026-05-09 00:52:00,Noite,Ponto de saída congestionado,Sim,Média,81
+923,1092,Expedição,2026-05-09 01:30:00,Noite,Atraso de transporte,Não,Média,21
+924,1094,Conferência,2026-04-18 02:06:00,Noite,Falha de scanner,Não,Média,54
+925,1096,Separação,2026-05-24 17:08:00,Tarde,Falta de operador,Não,Média,61
+926,1096,Recebimento,2026-05-24 17:30:00,Tarde,Falta de operador,Sim,Média,73
+927,1096,Recebimento,2026-05-24 17:33:00,Tarde,Etiqueta divergente,Sim,Alta,62
+928,1097,Carregamento,2026-05-07 06:56:00,Manhã,Atraso de roteirização,Não,Baixa,11
+929,1098,Separação,2026-05-25 00:16:00,Noite,Falha de WMS,Não,Média,26
+930,1098,Separação,2026-05-24 22:45:00,Noite,Falha de WMS,Não,Média,19
+931,1100,Expedição,2026-02-15 19:55:00,Tarde,Ponto de saída congestionado,Não,Média,50
+932,1100,Expedição,2026-02-15 20:02:00,Tarde,Carregamento fora do horário,Sim,Baixa,43
+933,1104,Conferência,2026-03-05 14:40:00,Tarde,Pedido com divergência,Sim,Baixa,41
+934,1104,Conferência,2026-03-05 16:20:00,Tarde,Conferência pendente,Sim,Alta,43
+935,1105,Carregamento,2026-04-30 08:10:00,Manhã,Falta de caminhão,Não,Alta,39
+936,1105,Conferência,2026-04-30 08:46:00,Manhã,Conferência pendente,Sim,Alta,15
+937,1105,Carregamento,2026-04-30 09:32:00,Manhã,Atraso de roteirização,Não,Média,29
+938,1106,Separação,2026-06-27 02:41:00,Noite,Falta de operador,Não,Baixa,25
+939,1106,Separação,2026-06-27 03:52:00,Noite,Falta de operador,Não,Média,45
+940,1106,Separação,2026-06-27 01:18:00,Noite,Separação incorreta,Não,Média,59
+941,1110,Expedição,2026-03-03 19:16:00,Tarde,Falha de documentação,Não,Alta,12
+942,1111,Separação,2026-06-19 08:56:00,Manhã,Ajuste de estoque,Sim,Baixa,11
+943,1111,Conferência,2026-06-19 07:13:00,Manhã,Pedido com divergência,Sim,Alta,19
+944,1111,Conferência,2026-06-19 08:14:00,Manhã,Falha de scanner,Sim,Média,23
+945,1112,Expedição,2026-06-21 06:30:00,Manhã,Carregamento fora do horário,Sim,Alta,27
+946,1112,Separação,2026-06-21 07:05:00,Manhã,Falha de WMS,Não,Alta,68
+947,1112,Separação,2026-06-21 06:11:00,Manhã,Ajuste de estoque,Sim,Média,40
+948,1115,Expedição,2026-05-16 06:14:00,Manhã,Atraso de transporte,Não,Média,21
+949,1115,Recebimento,2026-05-16 04:03:00,Noite,Etiqueta divergente,Não,Média,10
+950,1115,Recebimento,2026-05-16 04:56:00,Noite,Etiqueta divergente,Não,Baixa,81
+951,1118,Recebimento,2026-05-31 18:18:00,Tarde,Atraso no recebimento,Não,Média,43
+952,1118,Recebimento,2026-05-31 18:15:00,Tarde,Etiqueta divergente,Sim,Média,15
+953,1120,Carregamento,2026-01-17 20:33:00,Tarde,Falha operacional,Não,Baixa,123
+954,1120,Separação,2026-01-17 22:36:00,Noite,Separação incorreta,Não,Média,66
+955,1121,Recebimento,2026-03-25 03:03:00,Noite,Etiqueta divergente,Não,Alta,64
+956,1122,Recebimento,2026-02-22 22:07:00,Noite,Etiqueta divergente,Não,Alta,48
+957,1122,Expedição,2026-02-22 22:16:00,Noite,Carregamento fora do horário,Não,Média,29
+958,1122,Separação,2026-02-22 20:25:00,Tarde,Falha de WMS,Não,Média,86
+959,1124,Separação,2026-06-15 12:32:00,Manhã,Ajuste de estoque,Sim,Média,23
+960,1124,Separação,2026-06-15 12:04:00,Manhã,Falha de WMS,Não,Baixa,138
+961,1124,Carregamento,2026-06-15 11:52:00,Manhã,Falta de caminhão,Sim,Alta,131
+962,1125,Separação,2026-04-24 12:56:00,Manhã,Falta de operador,Sim,Média,37
+963,1125,Separação,2026-04-24 12:59:00,Manhã,Falha de WMS,Sim,Média,18
+964,1125,Separação,2026-04-24 12:40:00,Manhã,Ajuste de estoque,Não,Baixa,12
+965,1127,Conferência,2026-02-11 10:05:00,Manhã,Conferência pendente,Não,Média,113
+966,1128,Expedição,2026-01-30 14:38:00,Tarde,Ponto de saída congestionado,Não,Média,29
+967,1128,Separação,2026-01-30 13:52:00,Manhã,Falha de WMS,Não,Média,28
+968,1134,Carregamento,2026-04-24 06:36:00,Manhã,Falha operacional,Não,Alta,19
+969,1134,Separação,2026-04-24 06:18:00,Manhã,Ajuste de estoque,Não,Média,50
+970,1134,Carregamento,2026-04-24 05:21:00,Noite,Falta de caminhão,Não,Alta,36
+971,1135,Carregamento,2026-04-18 00:30:00,Noite,Falha operacional,Sim,Baixa,17
+972,1136,Separação,2026-02-17 05:12:00,Noite,Separação incorreta,Sim,Alta,84
+973,1136,Conferência,2026-02-17 04:58:00,Noite,Atraso de qualidade,Não,Alta,52
+974,1136,Conferência,2026-02-17 06:05:00,Manhã,Pedido com divergência,Sim,Baixa,99
+975,1138,Separação,2026-03-20 11:03:00,Manhã,Separação incorreta,Sim,Baixa,145
+976,1142,Expedição,2026-03-14 17:56:00,Tarde,Falha de documentação,Sim,Alta,50
+977,1142,Recebimento,2026-03-14 18:38:00,Tarde,Pedido incompleto,Não,Média,14
+978,1142,Carregamento,2026-03-14 18:54:00,Tarde,Falha operacional,Sim,Alta,23
+979,1161,Conferência,2026-03-27 05:23:00,Noite,Pedido com divergência,Sim,Média,84
+980,1161,Recebimento,2026-03-27 04:58:00,Noite,Pedido incompleto,Não,Alta,61
+981,1163,Carregamento,2026-05-27 05:03:00,Noite,Falha de WMS,Não,Média,83
+982,1163,Conferência,2026-05-27 04:38:00,Noite,Atraso de qualidade,Não,Alta,51
+983,1163,Conferência,2026-05-27 06:08:00,Manhã,Falha de scanner,Sim,Alta,59
+984,1167,Expedição,2026-04-14 16:35:00,Tarde,Carregamento fora do horário,Não,Alta,123
+985,1169,Separação,2026-06-29 21:59:00,Tarde,Ajuste de estoque,Não,Baixa,14
+986,1173,Recebimento,2026-06-08 05:40:00,Noite,Pedido incompleto,Sim,Média,30
+987,1173,Carregamento,2026-06-08 07:23:00,Manhã,Falha operacional,Não,Média,52
+988,1175,Expedição,2026-06-04 02:17:00,Noite,Atraso de transporte,Não,Média,21
+989,1175,Separação,2026-06-04 00:47:00,Noite,Separação incorreta,Sim,Média,38
+990,1175,Separação,2026-06-04 02:32:00,Noite,Falha de WMS,Não,Alta,28
+991,1177,Recebimento,2026-04-25 09:28:00,Manhã,Falta de operador,Não,Média,29
+992,1177,Recebimento,2026-04-25 09:08:00,Manhã,Falta de operador,Sim,Alta,85
+993,1177,Conferência,2026-04-25 07:52:00,Manhã,Atraso de qualidade,Sim,Alta,35
+994,1179,Conferência,2026-06-27 03:28:00,Noite,Atraso de qualidade,Sim,Alta,91
+995,1181,Carregamento,2026-02-09 10:48:00,Manhã,Falha operacional,Sim,Média,59
+996,1181,Recebimento,2026-02-09 10:01:00,Manhã,Etiqueta divergente,Sim,Média,115
+997,1183,Recebimento,2026-06-12 20:17:00,Tarde,Etiqueta divergente,Não,Média,38
+998,1185,Expedição,2026-03-16 10:09:00,Manhã,Ponto de saída congestionado,Não,Média,10
+999,1188,Carregamento,2026-01-15 04:42:00,Noite,Falha operacional,Não,Média,46
+1000,1188,Carregamento,2026-01-15 03:16:00,Noite,Falta de caminhão,Sim,Baixa,27
+1001,1188,Recebimento,2026-01-15 04:43:00,Noite,Pedido incompleto,Sim,Baixa,30
+1002,1190,Separação,2026-03-28 11:44:00,Manhã,Separação incorreta,Não,Média,42
+1003,1191,Conferência,2026-03-01 05:47:00,Noite,Pedido com divergência,Não,Média,10
+1004,1192,Conferência,2026-05-16 02:57:00,Noite,Falha de scanner,Sim,Média,120
+1005,1192,Recebimento,2026-05-16 01:41:00,Noite,Etiqueta divergente,Sim,Média,21
+1006,1193,Expedição,2026-02-02 11:19:00,Manhã,Carregamento fora do horário,Não,Alta,95
+1007,1194,Separação,2026-04-17 22:57:00,Noite,Ajuste de estoque,Não,Alta,49
+1008,1194,Recebimento,2026-04-18 00:45:00,Noite,Falta de operador,Não,Média,146
+1009,1194,Separação,2026-04-18 00:26:00,Noite,Separação incorreta,Não,Baixa,89
+1010,1200,Conferência,2026-05-27 05:42:00,Noite,Pedido com divergência,Não,Média,50
+1011,1202,Recebimento,2026-04-30 21:53:00,Tarde,Pedido incompleto,Não,Média,174
+1012,1204,Carregamento,2026-06-11 10:43:00,Manhã,Falha operacional,Sim,Média,41
+1013,1204,Conferência,2026-06-11 11:22:00,Manhã,Conferência pendente,Sim,Média,80
+1014,1204,Separação,2026-06-11 10:44:00,Manhã,Falha de WMS,Sim,Média,71
+1015,1213,Expedição,2026-02-13 20:11:00,Tarde,Atraso de transporte,Sim,Baixa,22
+1016,1213,Separação,2026-02-13 21:02:00,Tarde,Falha de WMS,Não,Baixa,12
+1017,1214,Expedição,2026-01-15 02:37:00,Noite,Ponto de saída congestionado,Não,Média,85
+1018,1214,Carregamento,2026-01-15 03:46:00,Noite,Atraso de roteirização,Não,Média,116
+1019,1214,Conferência,2026-01-15 02:19:00,Noite,Falha de scanner,Não,Alta,70
+1020,1216,Separação,2026-03-14 21:00:00,Tarde,Falta de operador,Sim,Média,84
+1021,1218,Expedição,2026-04-09 02:36:00,Noite,Falha de documentação,Não,Alta,13
+1022,1222,Conferência,2026-02-16 03:02:00,Noite,Falha de scanner,Sim,Média,38
+1023,1228,Conferência,2026-02-14 02:50:00,Noite,Pedido com divergência,Não,Média,190
+1024,1229,Recebimento,2026-02-19 18:09:00,Tarde,Etiqueta divergente,Não,Média,85
+1025,1229,Conferência,2026-02-19 18:41:00,Tarde,Atraso de qualidade,Não,Média,67
+1026,1231,Separação,2026-06-15 18:56:00,Tarde,Separação incorreta,Não,Média,24
+1027,1231,Conferência,2026-06-15 19:36:00,Tarde,Conferência pendente,Não,Alta,109
+1028,1231,Recebimento,2026-06-15 18:19:00,Tarde,Atraso no recebimento,Não,Média,123
+1029,1234,Separação,2026-05-03 04:43:00,Noite,Falta de operador,Não,Média,112
+1030,1234,Recebimento,2026-05-03 05:46:00,Noite,Falta de operador,Não,Baixa,171
+1031,1235,Conferência,2026-01-04 04:27:00,Noite,Falha de scanner,Não,Média,44
+1032,1235,Recebimento,2026-01-04 05:47:00,Noite,Atraso no recebimento,Não,Média,34
+1033,1235,Carregamento,2026-01-04 03:27:00,Noite,Falha operacional,Não,Baixa,11
+1034,1237,Carregamento,2026-04-07 19:01:00,Tarde,Falta de caminhão,Não,Alta,19
+1035,1237,Carregamento,2026-04-07 19:49:00,Tarde,Falta de caminhão,Sim,Média,47
+1036,1237,Conferência,2026-04-07 19:40:00,Tarde,Conferência pendente,Não,Média,80
+1037,1239,Conferência,2026-05-16 00:50:00,Noite,Atraso de qualidade,Não,Média,39
+1038,1239,Expedição,2026-05-16 00:19:00,Noite,Atraso de transporte,Sim,Média,39
+1039,1239,Conferência,2026-05-16 01:11:00,Noite,Pedido com divergência,Não,Alta,22
+1040,1240,Separação,2026-02-13 16:28:00,Tarde,Separação incorreta,Não,Alta,59
+1041,1240,Recebimento,2026-02-13 15:19:00,Tarde,Atraso no recebimento,Sim,Média,50
+1042,1242,Conferência,2026-05-02 21:16:00,Tarde,Falha de scanner,Não,Baixa,18
+1043,1245,Recebimento,2026-01-21 15:34:00,Tarde,Pedido incompleto,Não,Alta,142
+1044,1245,Separação,2026-01-21 14:07:00,Tarde,Ajuste de estoque,Sim,Média,140
+1045,1245,Conferência,2026-01-21 13:19:00,Manhã,Conferência pendente,Sim,Média,133
+1046,1246,Conferência,2026-03-22 10:39:00,Manhã,Falha de scanner,Não,Alta,92
+1047,1247,Separação,2026-01-23 05:32:00,Noite,Separação incorreta,Sim,Média,110
+1048,1256,Conferência,2026-01-21 03:16:00,Noite,Falha de scanner,Não,Alta,125
+1049,1256,Conferência,2026-01-21 01:23:00,Noite,Pedido com divergência,Sim,Alta,78
+1050,1256,Separação,2026-01-21 01:54:00,Noite,Separação incorreta,Não,Média,85
+1051,1260,Expedição,2026-06-22 00:39:00,Noite,Falha de documentação,Não,Média,48
+1052,1261,Recebimento,2026-04-30 20:59:00,Tarde,Falta de operador,Não,Média,137
+1053,1262,Conferência,2026-04-29 20:49:00,Tarde,Atraso de qualidade,Não,Média,67
+1054,1262,Conferência,2026-04-29 19:56:00,Tarde,Conferência pendente,Não,Média,75
+1055,1262,Separação,2026-04-29 20:12:00,Tarde,Separação incorreta,Não,Baixa,21
+1056,1263,Conferência,2026-02-09 13:39:00,Manhã,Atraso de qualidade,Não,Alta,68
+1057,1263,Separação,2026-02-09 13:58:00,Manhã,Falta de operador,Não,Alta,27
+1058,1264,Separação,2026-06-12 13:12:00,Manhã,Falha de WMS,Sim,Média,59
+1059,1264,Recebimento,2026-06-12 11:48:00,Manhã,Pedido incompleto,Sim,Alta,70
+1060,1264,Conferência,2026-06-12 11:26:00,Manhã,Pedido com divergência,Sim,Média,55
+1061,1265,Separação,2026-02-10 15:11:00,Tarde,Falta de operador,Não,Alta,88
+1062,1265,Recebimento,2026-02-10 12:31:00,Manhã,Falta de operador,Sim,Alta,31
+1063,1265,Recebimento,2026-02-10 14:14:00,Tarde,Etiqueta divergente,Não,Baixa,46
+1064,1266,Separação,2026-03-03 12:31:00,Manhã,Falha de WMS,Não,Média,66
+1065,1269,Conferência,2026-02-28 12:27:00,Manhã,Conferência pendente,Sim,Média,67
+1066,1270,Recebimento,2026-04-30 23:55:00,Noite,Atraso no recebimento,Não,Alta,44
+1067,1270,Separação,2026-04-30 22:25:00,Noite,Falha de WMS,Não,Alta,11
+1068,1271,Separação,2026-02-06 19:28:00,Tarde,Ajuste de estoque,Não,Alta,59
+1069,1273,Carregamento,2026-02-12 08:37:00,Manhã,Falta de caminhão,Não,Média,13
+1070,1273,Conferência,2026-02-12 09:35:00,Manhã,Pedido com divergência,Não,Alta,10
+1071,1273,Recebimento,2026-02-12 09:29:00,Manhã,Falta de operador,Não,Média,11
+1072,1275,Carregamento,2026-06-05 03:59:00,Noite,Atraso de roteirização,Não,Alta,78
+1073,1277,Conferência,2026-01-08 05:56:00,Noite,Conferência pendente,Não,Alta,80
+1074,1277,Separação,2026-01-08 06:34:00,Manhã,Separação incorreta,Não,Baixa,70
+1075,1277,Carregamento,2026-01-08 06:26:00,Manhã,Falha operacional,Sim,Média,114
+1076,1279,Recebimento,2026-02-14 14:39:00,Tarde,Falta de operador,Sim,Média,54
+1077,1279,Recebimento,2026-02-14 13:43:00,Manhã,Falta de operador,Não,Média,49
+1078,1282,Carregamento,2026-03-21 22:18:00,Noite,Falha de WMS,Sim,Média,135
+1079,1283,Separação,2026-04-10 04:25:00,Noite,Falta de operador,Não,Média,92
+1080,1289,Expedição,2026-05-18 17:11:00,Tarde,Ponto de saída congestionado,Não,Baixa,56
+1081,1289,Separação,2026-05-18 16:47:00,Tarde,Separação incorreta,Não,Média,21
+1082,1290,Separação,2026-03-05 07:30:00,Manhã,Ajuste de estoque,Sim,Alta,57
+1083,1292,Separação,2026-01-15 12:02:00,Manhã,Falha de WMS,Não,Alta,79
+1084,1292,Carregamento,2026-01-15 12:14:00,Manhã,Atraso de roteirização,Não,Média,46
+1085,1300,Conferência,2026-02-11 10:55:00,Manhã,Pedido com divergência,Sim,Média,40
+1086,1301,Recebimento,2026-03-20 06:55:00,Manhã,Atraso no recebimento,Não,Alta,31
+1087,1302,Conferência,2026-04-14 22:12:00,Noite,Conferência pendente,Sim,Baixa,76
+1088,1302,Conferência,2026-04-14 23:36:00,Noite,Falha de scanner,Não,Média,91
+1089,1305,Recebimento,2026-06-02 15:43:00,Tarde,Atraso no recebimento,Sim,Média,83
+1090,1306,Separação,2026-01-16 16:58:00,Tarde,Falha de WMS,Sim,Baixa,188
+1091,1307,Carregamento,2026-04-16 22:02:00,Noite,Falha de WMS,Sim,Média,132
+1092,1307,Expedição,2026-04-16 22:39:00,Noite,Atraso de transporte,Não,Média,26
+1093,1307,Separação,2026-04-17 00:03:00,Noite,Separação incorreta,Não,Média,13
+1094,1310,Carregamento,2026-06-24 19:05:00,Tarde,Falta de caminhão,Sim,Média,61
+1095,1310,Conferência,2026-06-24 18:26:00,Tarde,Conferência pendente,Sim,Alta,117
+1096,1319,Separação,2026-02-03 08:57:00,Manhã,Separação incorreta,Sim,Média,47
+1097,1320,Separação,2026-02-26 04:30:00,Noite,Ajuste de estoque,Não,Média,100
+1098,1320,Carregamento,2026-02-26 04:20:00,Noite,Falta de caminhão,Sim,Baixa,33
+1099,1320,Expedição,2026-02-26 05:37:00,Noite,Carregamento fora do horário,Não,Média,52
+1100,1324,Recebimento,2026-04-27 21:41:00,Tarde,Falta de operador,Sim,Alta,22
+1101,1324,Separação,2026-04-27 22:49:00,Noite,Falta de operador,Não,Baixa,50
+1102,1324,Recebimento,2026-04-27 23:36:00,Noite,Falta de operador,Não,Baixa,61
+1103,1326,Expedição,2026-06-16 05:23:00,Noite,Atraso de transporte,Sim,Baixa,44
+1104,1326,Separação,2026-06-16 04:32:00,Noite,Falta de operador,Sim,Alta,43
+1105,1327,Conferência,2026-06-03 09:04:00,Manhã,Conferência pendente,Sim,Baixa,21
+1106,1330,Recebimento,2026-04-16 00:53:00,Noite,Falta de operador,Sim,Média,22
+1107,1333,Separação,2026-05-09 00:06:00,Noite,Falta de operador,Não,Alta,39
+1108,1334,Recebimento,2026-04-15 10:22:00,Manhã,Etiqueta divergente,Sim,Alta,183
+1109,1335,Separação,2026-05-15 12:26:00,Manhã,Falta de operador,Não,Média,86
+1110,1335,Conferência,2026-05-15 11:40:00,Manhã,Pedido com divergência,Sim,Média,120
+1111,1336,Separação,2026-04-10 13:42:00,Manhã,Falta de operador,Não,Média,55
+1112,1336,Separação,2026-04-10 16:11:00,Tarde,Falha de WMS,Não,Média,115
+1113,1337,Separação,2026-05-05 15:05:00,Tarde,Separação incorreta,Não,Baixa,130
+1114,1338,Separação,2026-03-14 20:26:00,Tarde,Ajuste de estoque,Sim,Baixa,108
+1115,1341,Separação,2026-04-23 15:47:00,Tarde,Falta de operador,Sim,Alta,109
+1116,1341,Expedição,2026-04-23 16:34:00,Tarde,Carregamento fora do horário,Não,Média,168
+1117,1342,Separação,2026-04-02 11:30:00,Manhã,Falta de operador,Não,Média,41
+1118,1342,Separação,2026-04-02 11:03:00,Manhã,Falha de WMS,Sim,Alta,44
+1119,1344,Separação,2026-02-09 15:47:00,Tarde,Falta de operador,Sim,Média,99
+1120,1344,Conferência,2026-02-09 15:20:00,Tarde,Atraso de qualidade,Não,Alta,83
+1121,1347,Expedição,2026-03-05 06:25:00,Manhã,Ponto de saída congestionado,Sim,Alta,59
+1122,1347,Separação,2026-03-05 07:02:00,Manhã,Falha de WMS,Sim,Média,30
+1123,1347,Conferência,2026-03-05 07:33:00,Manhã,Atraso de qualidade,Não,Alta,38
+1124,1350,Separação,2026-05-20 22:16:00,Noite,Ajuste de estoque,Não,Média,64
+1125,1350,Separação,2026-05-20 22:48:00,Noite,Separação incorreta,Não,Média,78
+1126,1354,Separação,2026-06-14 16:01:00,Tarde,Separação incorreta,Sim,Média,29
+1127,1358,Recebimento,2026-01-12 11:58:00,Manhã,Atraso no recebimento,Sim,Média,141
+1128,1358,Conferência,2026-01-12 10:12:00,Manhã,Falha de scanner,Sim,Baixa,63
+1129,1359,Recebimento,2026-01-07 23:34:00,Noite,Falta de operador,Não,Alta,13
+1130,1359,Separação,2026-01-08 00:55:00,Noite,Falha de WMS,Não,Alta,10
+1131,1364,Expedição,2026-05-06 10:43:00,Manhã,Carregamento fora do horário,Não,Baixa,17
+1132,1364,Expedição,2026-05-06 10:23:00,Manhã,Carregamento fora do horário,Não,Média,59
+1133,1364,Separação,2026-05-06 12:17:00,Manhã,Falta de operador,Sim,Baixa,47
+1134,1365,Recebimento,2026-06-30 16:53:00,Tarde,Atraso no recebimento,Sim,Média,22
+1135,1365,Conferência,2026-06-30 18:07:00,Tarde,Pedido com divergência,Não,Média,29
+1136,1365,Recebimento,2026-06-30 18:04:00,Tarde,Pedido incompleto,Sim,Alta,15
+1137,1370,Recebimento,2026-02-20 13:41:00,Manhã,Etiqueta divergente,Não,Média,21
+1138,1370,Conferência,2026-02-20 12:09:00,Manhã,Pedido com divergência,Não,Alta,38
+1139,1370,Separação,2026-02-20 12:31:00,Manhã,Falta de operador,Sim,Alta,23
+1140,1371,Separação,2026-03-10 09:42:00,Manhã,Falha de WMS,Sim,Alta,73
+1141,1375,Conferência,2026-05-25 15:01:00,Tarde,Falha de scanner,Não,Baixa,38
+1142,1375,Separação,2026-05-25 15:48:00,Tarde,Ajuste de estoque,Não,Média,71
+1143,1375,Conferência,2026-05-25 16:03:00,Tarde,Conferência pendente,Não,Baixa,15
+1144,1376,Conferência,2026-05-27 00:19:00,Noite,Falha de scanner,Não,Alta,65
+1145,1376,Separação,2026-05-27 00:15:00,Noite,Falta de operador,Não,Alta,21
+1146,1376,Recebimento,2026-05-27 01:09:00,Noite,Falta de operador,Não,Alta,94
+1147,1377,Recebimento,2026-05-19 18:38:00,Tarde,Falta de operador,Não,Alta,19
+1148,1377,Recebimento,2026-05-19 19:05:00,Tarde,Pedido incompleto,Não,Alta,113
+1149,1377,Expedição,2026-05-19 17:37:00,Tarde,Falha de documentação,Não,Média,73
+1150,1379,Recebimento,2026-02-20 01:37:00,Noite,Atraso no recebimento,Sim,Alta,39
+1151,1379,Separação,2026-02-20 01:25:00,Noite,Separação incorreta,Não,Média,16
+1152,1380,Separação,2026-06-30 20:27:00,Tarde,Falha de WMS,Não,Baixa,85
+1153,1382,Separação,2026-01-26 07:42:00,Manhã,Separação incorreta,Sim,Alta,16
+1154,1386,Expedição,2026-06-10 01:39:00,Noite,Ponto de saída congestionado,Sim,Baixa,22
+1155,1386,Conferência,2026-06-10 01:14:00,Noite,Conferência pendente,Não,Média,69
+1156,1386,Conferência,2026-06-10 03:23:00,Noite,Conferência pendente,Não,Média,47
+1157,1387,Recebimento,2026-06-02 09:53:00,Manhã,Atraso no recebimento,Não,Média,27
+1158,1392,Expedição,2026-04-23 11:56:00,Manhã,Atraso de transporte,Sim,Média,140
+1159,1392,Separação,2026-04-23 11:10:00,Manhã,Separação incorreta,Sim,Baixa,30
+1160,1394,Expedição,2026-05-20 04:20:00,Noite,Carregamento fora do horário,Não,Média,58
+1161,1395,Carregamento,2026-06-26 13:18:00,Manhã,Atraso de roteirização,Sim,Baixa,32
+1162,1396,Carregamento,2026-02-27 15:20:00,Tarde,Falta de caminhão,Sim,Média,52
+1163,1396,Recebimento,2026-02-27 16:10:00,Tarde,Etiqueta divergente,Não,Baixa,18
+1164,1402,Conferência,2026-03-08 19:44:00,Tarde,Atraso de qualidade,Sim,Média,41
+1165,1402,Carregamento,2026-03-08 18:18:00,Tarde,Atraso de roteirização,Sim,Média,41
+1166,1403,Carregamento,2026-02-22 02:01:00,Noite,Atraso de roteirização,Não,Média,45
+1167,1403,Conferência,2026-02-22 01:33:00,Noite,Atraso de qualidade,Não,Média,74
+1168,1403,Conferência,2026-02-22 00:58:00,Noite,Atraso de qualidade,Não,Baixa,23
+1169,1407,Expedição,2026-02-28 00:43:00,Noite,Ponto de saída congestionado,Não,Média,61
+1170,1407,Separação,2026-02-28 01:25:00,Noite,Separação incorreta,Sim,Baixa,33
+1171,1407,Separação,2026-02-28 01:12:00,Noite,Falha de WMS,Sim,Média,56
+1172,1408,Separação,2026-02-11 23:55:00,Noite,Falta de operador,Não,Média,31
+1173,1408,Separação,2026-02-12 01:03:00,Noite,Ajuste de estoque,Sim,Média,106
+1174,1413,Conferência,2026-04-11 02:20:00,Noite,Atraso de qualidade,Sim,Alta,75
+1175,1413,Separação,2026-04-11 01:35:00,Noite,Ajuste de estoque,Sim,Média,114
+1176,1413,Separação,2026-04-11 01:49:00,Noite,Separação incorreta,Não,Alta,112
+1177,1415,Separação,2026-04-11 09:59:00,Manhã,Separação incorreta,Não,Baixa,138
+1178,1416,Recebimento,2026-06-19 17:54:00,Tarde,Pedido incompleto,Sim,Baixa,28
+1179,1416,Separação,2026-06-19 18:25:00,Tarde,Separação incorreta,Sim,Média,51
+1180,1416,Carregamento,2026-06-19 18:44:00,Tarde,Falha de WMS,Não,Média,48
+1181,1417,Recebimento,2026-06-17 16:21:00,Tarde,Falta de operador,Sim,Média,24
+1182,1419,Separação,2026-06-15 06:29:00,Manhã,Falha de WMS,Não,Média,17
+1183,1420,Separação,2026-06-07 19:51:00,Tarde,Ajuste de estoque,Não,Baixa,30
+1184,1420,Conferência,2026-06-07 17:59:00,Tarde,Conferência pendente,Não,Média,13
+1185,1421,Conferência,2026-04-03 01:20:00,Noite,Falha de scanner,Não,Baixa,107
+1186,1421,Separação,2026-04-02 23:47:00,Noite,Falta de operador,Não,Baixa,19
+1187,1421,Recebimento,2026-04-03 01:54:00,Noite,Falta de operador,Sim,Alta,130
+1188,1423,Separação,2026-02-11 19:45:00,Tarde,Falta de operador,Não,Baixa,42
+1189,1423,Carregamento,2026-02-11 19:27:00,Tarde,Falta de caminhão,Sim,Média,39
+1190,1431,Carregamento,2026-01-04 16:30:00,Tarde,Falha operacional,Sim,Baixa,140
+1191,1431,Conferência,2026-01-04 15:07:00,Tarde,Atraso de qualidade,Sim,Média,98
+1192,1432,Expedição,2026-04-05 13:41:00,Manhã,Carregamento fora do horário,Não,Média,45
+1193,1432,Conferência,2026-04-05 14:12:00,Tarde,Conferência pendente,Sim,Alta,49
+1194,1434,Expedição,2026-01-29 00:43:00,Noite,Carregamento fora do horário,Não,Média,28
+1195,1434,Recebimento,2026-01-29 02:03:00,Noite,Atraso no recebimento,Sim,Média,25
+1196,1434,Carregamento,2026-01-29 01:00:00,Noite,Falha operacional,Não,Baixa,34
+1197,1436,Separação,2026-01-29 10:07:00,Manhã,Ajuste de estoque,Não,Média,120
+1198,1436,Conferência,2026-01-29 11:23:00,Manhã,Conferência pendente,Não,Baixa,165
+1199,1438,Separação,2026-05-08 12:42:00,Manhã,Separação incorreta,Não,Média,25
+1200,1438,Separação,2026-05-08 14:05:00,Tarde,Falha de WMS,Não,Baixa,35
+1201,1438,Separação,2026-05-08 12:53:00,Manhã,Separação incorreta,Não,Média,45
+1202,1439,Separação,2026-02-21 07:14:00,Manhã,Ajuste de estoque,Sim,Média,11
+1203,1440,Separação,2026-03-01 08:15:00,Manhã,Separação incorreta,Não,Baixa,88
+1204,1440,Carregamento,2026-03-01 07:50:00,Manhã,Falta de caminhão,Não,Alta,120
+1205,1440,Expedição,2026-03-01 06:35:00,Manhã,Atraso de transporte,Não,Média,40
+1206,1441,Recebimento,2026-03-04 18:05:00,Tarde,Falta de operador,Sim,Baixa,11
+1207,1441,Separação,2026-03-04 17:43:00,Tarde,Separação incorreta,Sim,Alta,20
+1208,1441,Separação,2026-03-04 19:44:00,Tarde,Ajuste de estoque,Sim,Média,20
+1209,1443,Separação,2026-03-24 14:55:00,Tarde,Ajuste de estoque,Não,Alta,82
+1210,1443,Carregamento,2026-03-24 15:59:00,Tarde,Falta de caminhão,Sim,Média,40
+1211,1444,Separação,2026-05-04 08:00:00,Manhã,Falta de operador,Não,Média,21
+1212,1446,Carregamento,2026-01-08 02:46:00,Noite,Falta de caminhão,Não,Baixa,109
+1213,1449,Recebimento,2026-06-20 17:16:00,Tarde,Falta de operador,Não,Média,33
+1214,1456,Recebimento,2026-03-11 00:12:00,Noite,Pedido incompleto,Não,Alta,10
+1215,1456,Separação,2026-03-11 01:50:00,Noite,Separação incorreta,Não,Baixa,13
+1216,1462,Conferência,2026-02-21 21:54:00,Tarde,Falha de scanner,Não,Média,10
+1217,1462,Separação,2026-02-21 21:41:00,Tarde,Ajuste de estoque,Não,Alta,25
+1218,1463,Conferência,2026-03-23 22:57:00,Noite,Pedido com divergência,Não,Alta,21
+1219,1465,Separação,2026-01-28 09:54:00,Manhã,Falta de operador,Não,Baixa,157
+1220,1468,Conferência,2026-01-11 21:16:00,Tarde,Conferência pendente,Sim,Média,31
+1221,1471,Recebimento,2026-02-09 18:07:00,Tarde,Falta de operador,Sim,Média,31
+1222,1471,Separação,2026-02-09 18:49:00,Tarde,Separação incorreta,Não,Média,55
+1223,1471,Conferência,2026-02-09 18:18:00,Tarde,Falha de scanner,Não,Média,48
+1224,1474,Recebimento,2026-05-27 21:34:00,Tarde,Pedido incompleto,Não,Baixa,10
+1225,1474,Separação,2026-05-27 19:50:00,Tarde,Falha de WMS,Sim,Média,133
+1226,1475,Conferência,2026-05-27 08:45:00,Manhã,Pedido com divergência,Não,Média,106
+1227,1475,Separação,2026-05-27 07:31:00,Manhã,Falha de WMS,Não,Alta,40
+1228,1476,Separação,2026-03-26 15:18:00,Tarde,Falha de WMS,Não,Média,36
+1229,1476,Expedição,2026-03-26 16:35:00,Tarde,Ponto de saída congestionado,Não,Média,119
+1230,1476,Separação,2026-03-26 16:28:00,Tarde,Separação incorreta,Não,Alta,27
+1231,1477,Recebimento,2026-06-07 21:26:00,Tarde,Pedido incompleto,Sim,Alta,20
+1232,1481,Conferência,2026-01-29 20:48:00,Tarde,Pedido com divergência,Não,Média,49
+1233,1481,Recebimento,2026-01-29 20:59:00,Tarde,Falta de operador,Não,Média,184
+1234,1483,Recebimento,2026-01-05 11:56:00,Manhã,Etiqueta divergente,Não,Média,72
+1235,1483,Recebimento,2026-01-05 11:58:00,Manhã,Falta de operador,Sim,Média,49
+1236,1484,Carregamento,2026-06-22 05:07:00,Noite,Falha de WMS,Não,Média,141
+1237,1486,Separação,2026-05-02 13:28:00,Manhã,Ajuste de estoque,Sim,Alta,165
+1238,1486,Separação,2026-05-02 13:14:00,Manhã,Falta de operador,Não,Média,96
+1239,1490,Conferência,2026-02-11 12:53:00,Manhã,Pedido com divergência,Não,Alta,28
+1240,1492,Recebimento,2026-03-26 22:16:00,Noite,Pedido incompleto,Não,Média,58
+1241,1494,Conferência,2026-05-10 22:46:00,Noite,Conferência pendente,Não,Média,26
+1242,1494,Recebimento,2026-05-10 21:35:00,Tarde,Etiqueta divergente,Não,Média,31
+1243,1495,Recebimento,2026-02-18 15:27:00,Tarde,Atraso no recebimento,Não,Baixa,22
+1244,1495,Recebimento,2026-02-18 14:41:00,Tarde,Falta de operador,Não,Alta,30
+1245,1495,Conferência,2026-02-18 15:21:00,Tarde,Pedido com divergência,Não,Alta,38
+1246,1496,Recebimento,2026-04-03 13:10:00,Manhã,Falta de operador,Não,Média,98
+1247,1496,Separação,2026-04-03 13:27:00,Manhã,Ajuste de estoque,Não,Alta,110
+1248,1497,Expedição,2026-06-08 20:48:00,Tarde,Carregamento fora do horário,Não,Média,122
+1249,1497,Conferência,2026-06-08 19:28:00,Tarde,Falha de scanner,Sim,Alta,83
+1250,1501,Separação,2026-02-26 11:59:00,Manhã,Falta de operador,Não,Baixa,11
+1251,1501,Expedição,2026-02-26 13:06:00,Manhã,Carregamento fora do horário,Não,Média,95
+1252,1501,Carregamento,2026-02-26 10:54:00,Manhã,Falta de caminhão,Não,Alta,124
+1253,1502,Conferência,2026-04-30 09:22:00,Manhã,Conferência pendente,Não,Alta,38
+1254,1502,Conferência,2026-04-30 09:31:00,Manhã,Conferência pendente,Não,Baixa,46
+1255,1503,Separação,2026-04-27 03:46:00,Noite,Ajuste de estoque,Não,Baixa,35
+1256,1504,Separação,2026-01-03 16:21:00,Tarde,Separação incorreta,Não,Média,189
+1257,1508,Carregamento,2026-04-14 12:39:00,Manhã,Falta de caminhão,Não,Alta,39
+1258,1508,Carregamento,2026-04-14 11:40:00,Manhã,Falta de caminhão,Não,Média,51
+1259,1508,Recebimento,2026-04-14 12:09:00,Manhã,Falta de operador,Não,Média,15
+1260,1509,Separação,2026-05-21 06:56:00,Manhã,Falha de WMS,Não,Baixa,49
+1261,1509,Conferência,2026-05-21 07:29:00,Manhã,Atraso de qualidade,Sim,Alta,111
+1262,1511,Separação,2026-05-16 16:57:00,Tarde,Falha de WMS,Não,Média,66
+1263,1511,Conferência,2026-05-16 19:07:00,Tarde,Atraso de qualidade,Não,Baixa,27
+1264,1512,Expedição,2026-02-15 13:36:00,Manhã,Falha de documentação,Não,Alta,142
+1265,1513,Conferência,2026-05-04 17:08:00,Tarde,Conferência pendente,Não,Alta,36
+1266,1513,Separação,2026-05-04 17:17:00,Tarde,Falha de WMS,Não,Média,58
+1267,1514,Expedição,2026-04-22 00:17:00,Noite,Carregamento fora do horário,Não,Média,104
+1268,1515,Recebimento,2026-02-03 14:52:00,Tarde,Falta de operador,Não,Média,74
+1269,1515,Conferência,2026-02-03 16:41:00,Tarde,Conferência pendente,Não,Média,16
+1270,1515,Conferência,2026-02-03 16:37:00,Tarde,Pedido com divergência,Sim,Alta,23
+1271,1519,Carregamento,2026-06-04 23:52:00,Noite,Falta de caminhão,Não,Alta,65
+1272,1521,Recebimento,2026-05-26 00:49:00,Noite,Etiqueta divergente,Sim,Alta,47
+1273,1521,Separação,2026-05-26 03:04:00,Noite,Separação incorreta,Não,Alta,92
+1274,1522,Conferência,2026-06-07 01:32:00,Noite,Conferência pendente,Não,Média,106
+1275,1532,Carregamento,2026-03-12 09:20:00,Manhã,Falta de caminhão,Sim,Média,27
+1276,1532,Separação,2026-03-12 08:15:00,Manhã,Separação incorreta,Não,Média,53
+1277,1532,Separação,2026-03-12 08:50:00,Manhã,Falta de operador,Não,Baixa,42
+1278,1533,Separação,2026-01-02 03:45:00,Noite,Falta de operador,Não,Baixa,12
+1279,1533,Conferência,2026-01-02 04:07:00,Noite,Conferência pendente,Não,Média,28
+1280,1533,Separação,2026-01-02 04:19:00,Noite,Separação incorreta,Não,Baixa,12
+1281,1534,Expedição,2026-04-25 11:44:00,Manhã,Ponto de saída congestionado,Não,Média,187
+1282,1535,Conferência,2026-05-16 01:32:00,Noite,Conferência pendente,Não,Baixa,43
+1283,1535,Expedição,2026-05-16 03:18:00,Noite,Carregamento fora do horário,Não,Baixa,46
+1284,1535,Conferência,2026-05-16 02:44:00,Noite,Atraso de qualidade,Não,Média,43
+1285,1536,Conferência,2026-06-29 14:45:00,Tarde,Conferência pendente,Não,Baixa,92
+1286,1538,Separação,2026-05-28 08:32:00,Manhã,Ajuste de estoque,Não,Média,79
+1287,1541,Conferência,2026-05-16 02:53:00,Noite,Pedido com divergência,Não,Média,41
+1288,1543,Expedição,2026-05-22 10:25:00,Manhã,Falha de documentação,Não,Alta,42
+1289,1543,Recebimento,2026-05-22 09:39:00,Manhã,Falta de operador,Não,Baixa,40
+1290,1547,Conferência,2026-03-05 07:35:00,Manhã,Conferência pendente,Não,Média,64
+1291,1547,Separação,2026-03-05 07:04:00,Manhã,Separação incorreta,Sim,Alta,35
+1292,1550,Recebimento,2026-01-11 06:34:00,Manhã,Pedido incompleto,Sim,Alta,32
+1293,1553,Carregamento,2026-05-01 08:03:00,Manhã,Falha de WMS,Não,Média,91
+1294,1553,Recebimento,2026-05-01 05:55:00,Noite,Pedido incompleto,Sim,Baixa,142
+1295,1554,Expedição,2026-01-15 09:41:00,Manhã,Carregamento fora do horário,Sim,Média,58
+1296,1554,Expedição,2026-01-15 11:04:00,Manhã,Atraso de transporte,Não,Baixa,12
+1297,1555,Separação,2026-05-04 00:11:00,Noite,Ajuste de estoque,Não,Alta,133
+1298,1555,Carregamento,2026-05-03 22:18:00,Noite,Falha de WMS,Sim,Alta,84
+1299,1555,Recebimento,2026-05-03 23:52:00,Noite,Falta de operador,Não,Alta,60
+1300,1558,Carregamento,2026-01-11 22:43:00,Noite,Falta de caminhão,Não,Baixa,16
+1301,1559,Conferência,2026-06-13 02:01:00,Noite,Conferência pendente,Sim,Média,16
+1302,1561,Expedição,2026-02-23 19:16:00,Tarde,Carregamento fora do horário,Não,Média,38
+1303,1561,Expedição,2026-02-23 19:51:00,Tarde,Atraso de transporte,Não,Alta,37
+1304,1561,Expedição,2026-02-23 19:42:00,Tarde,Ponto de saída congestionado,Não,Baixa,33
+1305,1565,Conferência,2026-04-14 22:25:00,Noite,Pedido com divergência,Não,Média,47
+1306,1565,Recebimento,2026-04-14 22:19:00,Noite,Etiqueta divergente,Não,Média,46
+1307,1565,Carregamento,2026-04-14 23:20:00,Noite,Falta de caminhão,Não,Baixa,46
+1308,1566,Expedição,2026-02-10 04:04:00,Noite,Carregamento fora do horário,Sim,Média,16
+1309,1567,Separação,2026-06-20 01:31:00,Noite,Ajuste de estoque,Sim,Média,13
+1310,1567,Separação,2026-06-20 00:15:00,Noite,Separação incorreta,Não,Média,22
+1311,1567,Carregamento,2026-06-20 01:46:00,Noite,Falta de caminhão,Não,Baixa,94
+1312,1569,Carregamento,2026-03-03 09:38:00,Manhã,Falta de caminhão,Não,Alta,14
+1313,1573,Recebimento,2026-01-12 13:39:00,Manhã,Pedido incompleto,Não,Média,63
+1314,1573,Conferência,2026-01-12 14:31:00,Tarde,Atraso de qualidade,Não,Alta,62
+1315,1581,Separação,2026-04-11 04:28:00,Noite,Separação incorreta,Não,Alta,48
+1316,1583,Recebimento,2026-05-06 03:20:00,Noite,Pedido incompleto,Não,Alta,34
+1317,1592,Expedição,2026-06-20 11:12:00,Manhã,Ponto de saída congestionado,Não,Média,82
+1318,1594,Carregamento,2026-06-19 04:28:00,Noite,Atraso de roteirização,Não,Baixa,73
+1319,1594,Conferência,2026-06-19 06:07:00,Manhã,Atraso de qualidade,Não,Baixa,76
+1320,1594,Recebimento,2026-06-19 05:48:00,Noite,Pedido incompleto,Sim,Alta,31
+1321,1595,Separação,2026-05-22 11:28:00,Manhã,Falta de operador,Sim,Baixa,28
+1322,1595,Recebimento,2026-05-22 11:40:00,Manhã,Pedido incompleto,Sim,Média,58
+1323,1595,Carregamento,2026-05-22 13:58:00,Manhã,Falta de caminhão,Sim,Alta,45
+1324,1597,Carregamento,2026-01-23 03:56:00,Noite,Falha de WMS,Não,Média,11
+1325,1601,Conferência,2026-06-19 14:14:00,Tarde,Conferência pendente,Sim,Média,51
+1326,1601,Expedição,2026-06-19 14:05:00,Tarde,Carregamento fora do horário,Não,Baixa,13
+1327,1601,Recebimento,2026-06-19 13:27:00,Manhã,Falta de operador,Não,Média,25
+1328,1605,Conferência,2026-01-29 01:42:00,Noite,Pedido com divergência,Não,Média,115
+1329,1606,Expedição,2026-04-05 00:17:00,Noite,Atraso de transporte,Não,Média,188
+1330,1606,Expedição,2026-04-04 23:52:00,Noite,Atraso de transporte,Não,Média,56
+1331,1606,Conferência,2026-04-04 22:31:00,Noite,Conferência pendente,Sim,Média,66
+1332,1607,Separação,2026-05-16 12:18:00,Manhã,Separação incorreta,Não,Média,44
+1333,1607,Expedição,2026-05-16 11:37:00,Manhã,Atraso de transporte,Sim,Baixa,37
+1334,1607,Conferência,2026-05-16 13:42:00,Manhã,Pedido com divergência,Sim,Média,26
+1335,1609,Carregamento,2026-05-22 18:25:00,Tarde,Atraso de roteirização,Sim,Alta,12
+1336,1609,Recebimento,2026-05-22 19:49:00,Tarde,Pedido incompleto,Não,Média,17
+1337,1616,Carregamento,2026-03-08 18:44:00,Tarde,Falha de WMS,Não,Média,28
+1338,1617,Recebimento,2026-05-29 21:36:00,Tarde,Etiqueta divergente,Não,Baixa,23
+1339,1618,Separação,2026-02-26 08:53:00,Manhã,Ajuste de estoque,Não,Alta,16
+1340,1618,Separação,2026-02-26 09:24:00,Manhã,Separação incorreta,Não,Baixa,41
+1341,1618,Separação,2026-02-26 07:54:00,Manhã,Ajuste de estoque,Não,Média,23
+1342,1622,Expedição,2026-04-29 12:13:00,Manhã,Carregamento fora do horário,Não,Média,10
+1343,1622,Recebimento,2026-04-29 12:42:00,Manhã,Etiqueta divergente,Sim,Alta,15
+1344,1623,Recebimento,2026-01-18 15:54:00,Tarde,Pedido incompleto,Não,Alta,12
+1345,1623,Conferência,2026-01-18 15:57:00,Tarde,Falha de scanner,Não,Baixa,111
+1346,1623,Expedição,2026-01-18 14:50:00,Tarde,Atraso de transporte,Não,Média,10
+1347,1626,Separação,2026-03-22 15:05:00,Tarde,Falha de WMS,Não,Baixa,51
+1348,1626,Separação,2026-03-22 15:43:00,Tarde,Separação incorreta,Sim,Média,73
+1349,1627,Separação,2026-05-24 19:37:00,Tarde,Separação incorreta,Não,Média,27
+1350,1627,Recebimento,2026-05-24 19:07:00,Tarde,Falta de operador,Não,Alta,19
+1351,1630,Carregamento,2026-05-02 14:26:00,Tarde,Falta de caminhão,Sim,Média,34
+1352,1631,Recebimento,2026-05-24 18:36:00,Tarde,Atraso no recebimento,Não,Alta,111
+1353,1631,Separação,2026-05-24 18:21:00,Tarde,Falta de operador,Não,Média,88
+1354,1631,Conferência,2026-05-24 17:37:00,Tarde,Conferência pendente,Não,Baixa,57
+1355,1632,Separação,2026-01-20 03:12:00,Noite,Falha de WMS,Não,Média,25
+1356,1632,Separação,2026-01-20 02:38:00,Noite,Separação incorreta,Não,Média,14
+1357,1635,Separação,2026-02-13 13:40:00,Manhã,Falta de operador,Sim,Baixa,92
+1358,1635,Conferência,2026-02-13 13:11:00,Manhã,Atraso de qualidade,Não,Baixa,12
+1359,1635,Separação,2026-02-13 14:30:00,Tarde,Falha de WMS,Sim,Baixa,39
+1360,1638,Separação,2026-02-20 23:15:00,Noite,Falta de operador,Não,Baixa,20
+1361,1640,Recebimento,2026-01-02 22:55:00,Noite,Atraso no recebimento,Sim,Alta,26
+1362,1642,Expedição,2026-06-02 17:34:00,Tarde,Ponto de saída congestionado,Sim,Alta,83
+1363,1643,Separação,2026-04-25 05:55:00,Noite,Separação incorreta,Sim,Baixa,113
+1364,1643,Separação,2026-04-25 03:36:00,Noite,Ajuste de estoque,Não,Alta,49
+1365,1645,Expedição,2026-01-30 16:17:00,Tarde,Falha de documentação,Não,Média,41
+1366,1645,Separação,2026-01-30 17:01:00,Tarde,Falha de WMS,Não,Alta,33
+1367,1648,Separação,2026-02-22 23:46:00,Noite,Ajuste de estoque,Sim,Alta,81
+1368,1648,Separação,2026-02-23 01:10:00,Noite,Separação incorreta,Não,Média,117
+1369,1648,Separação,2026-02-22 23:40:00,Noite,Ajuste de estoque,Não,Alta,139
+1370,1649,Carregamento,2026-03-25 15:40:00,Tarde,Falha de WMS,Não,Alta,30
+1371,1652,Expedição,2026-04-02 12:32:00,Manhã,Ponto de saída congestionado,Não,Média,35
+1372,1652,Carregamento,2026-04-02 11:47:00,Manhã,Falha de WMS,Sim,Alta,39
+1373,1652,Separação,2026-04-02 10:47:00,Manhã,Separação incorreta,Não,Alta,28
+1374,1653,Recebimento,2026-06-04 22:05:00,Noite,Atraso no recebimento,Não,Média,37
+1375,1654,Carregamento,2026-03-23 04:19:00,Noite,Falta de caminhão,Não,Alta,53
+1376,1654,Carregamento,2026-03-23 03:23:00,Noite,Falta de caminhão,Não,Alta,50
+1377,1654,Carregamento,2026-03-23 03:25:00,Noite,Falha de WMS,Não,Média,61
+1378,1656,Recebimento,2026-02-09 02:20:00,Noite,Atraso no recebimento,Não,Média,164
+1379,1656,Carregamento,2026-02-09 04:06:00,Noite,Falha de WMS,Não,Alta,135
+1380,1658,Carregamento,2026-01-06 22:07:00,Noite,Falha operacional,Não,Alta,30
+1381,1659,Recebimento,2026-03-07 15:27:00,Tarde,Pedido incompleto,Sim,Baixa,153
+1382,1659,Expedição,2026-03-07 15:29:00,Tarde,Atraso de transporte,Não,Média,172
+1383,1659,Recebimento,2026-03-07 15:25:00,Tarde,Atraso no recebimento,Não,Alta,34
+1384,1660,Separação,2026-05-09 01:28:00,Noite,Falta de operador,Sim,Média,43
+1385,1660,Carregamento,2026-05-09 02:11:00,Noite,Falha operacional,Não,Alta,52
+1386,1665,Recebimento,2026-04-06 11:25:00,Manhã,Etiqueta divergente,Sim,Média,21
+1387,1666,Recebimento,2026-03-14 10:21:00,Manhã,Atraso no recebimento,Não,Baixa,39
+1388,1666,Carregamento,2026-03-14 11:30:00,Manhã,Falta de caminhão,Não,Média,21
+1389,1666,Carregamento,2026-03-14 09:52:00,Manhã,Falha de WMS,Não,Média,43
+1390,1674,Conferência,2026-02-17 23:27:00,Noite,Falha de scanner,Sim,Alta,26
+1391,1675,Carregamento,2026-01-05 06:54:00,Manhã,Atraso de roteirização,Não,Média,159
+1392,1675,Separação,2026-01-05 06:22:00,Manhã,Falta de operador,Não,Alta,98
+1393,1675,Carregamento,2026-01-05 05:16:00,Noite,Falta de caminhão,Não,Média,116
+1394,1676,Separação,2026-04-18 01:21:00,Noite,Separação incorreta,Não,Baixa,24
+1395,1679,Separação,2026-01-20 02:39:00,Noite,Ajuste de estoque,Não,Média,131
+1396,1679,Separação,2026-01-20 02:46:00,Noite,Separação incorreta,Não,Média,35
+1397,1680,Carregamento,2026-05-15 09:39:00,Manhã,Falta de caminhão,Não,Média,110
+1398,1686,Separação,2026-03-04 10:42:00,Manhã,Falta de operador,Não,Baixa,39
+1399,1686,Recebimento,2026-03-04 09:13:00,Manhã,Atraso no recebimento,Sim,Alta,53
+1400,1686,Expedição,2026-03-04 10:18:00,Manhã,Carregamento fora do horário,Não,Média,14
+1401,1688,Separação,2026-01-28 21:53:00,Tarde,Falha de WMS,Não,Alta,42
+1402,1688,Expedição,2026-01-28 21:09:00,Tarde,Ponto de saída congestionado,Não,Média,35
+1403,1688,Expedição,2026-01-28 20:17:00,Tarde,Falha de documentação,Sim,Média,145
+1404,1692,Conferência,2026-03-18 02:34:00,Noite,Conferência pendente,Sim,Alta,28
+1405,1692,Conferência,2026-03-18 02:00:00,Noite,Conferência pendente,Não,Média,29
+1406,1692,Separação,2026-03-18 01:03:00,Noite,Ajuste de estoque,Não,Alta,25
+1407,1694,Separação,2026-02-07 14:47:00,Tarde,Falta de operador,Não,Média,129
+1408,1695,Conferência,2026-02-01 13:24:00,Manhã,Conferência pendente,Sim,Baixa,83
+1409,1696,Separação,2026-03-27 00:08:00,Noite,Ajuste de estoque,Não,Média,86
+1410,1696,Separação,2026-03-26 23:30:00,Noite,Ajuste de estoque,Sim,Alta,19
+1411,1696,Conferência,2026-03-27 00:24:00,Noite,Atraso de qualidade,Não,Baixa,37
+1412,1699,Recebimento,2026-05-22 11:42:00,Manhã,Falta de operador,Sim,Média,129
+1413,1699,Conferência,2026-05-22 10:39:00,Manhã,Pedido com divergência,Não,Alta,64
+1414,1703,Conferência,2026-04-10 18:47:00,Tarde,Atraso de qualidade,Não,Baixa,13
+1415,1707,Conferência,2026-06-04 04:21:00,Noite,Conferência pendente,Sim,Baixa,80
+1416,1707,Separação,2026-06-04 02:02:00,Noite,Separação incorreta,Não,Média,96
+1417,1707,Separação,2026-06-04 02:12:00,Noite,Falha de WMS,Não,Média,82
+1418,1710,Conferência,2026-01-19 01:49:00,Noite,Pedido com divergência,Não,Média,162
+1419,1710,Carregamento,2026-01-19 00:16:00,Noite,Atraso de roteirização,Não,Baixa,75
+1420,1710,Separação,2026-01-19 00:41:00,Noite,Falta de operador,Sim,Alta,106
+1421,1713,Carregamento,2026-03-24 04:24:00,Noite,Falta de caminhão,Não,Baixa,16
+1422,1713,Carregamento,2026-03-24 03:46:00,Noite,Falta de caminhão,Não,Baixa,20
+1423,1713,Conferência,2026-03-24 03:59:00,Noite,Pedido com divergência,Sim,Média,11
+1424,1714,Recebimento,2026-03-21 00:30:00,Noite,Etiqueta divergente,Sim,Média,68
+1425,1714,Conferência,2026-03-20 23:55:00,Noite,Conferência pendente,Não,Alta,40
+1426,1715,Conferência,2026-01-26 07:54:00,Manhã,Conferência pendente,Não,Alta,43
+1427,1715,Separação,2026-01-26 08:55:00,Manhã,Falta de operador,Sim,Média,106
+1428,1717,Recebimento,2026-05-07 11:33:00,Manhã,Falta de operador,Sim,Média,150
+1429,1722,Separação,2026-01-02 05:02:00,Noite,Falta de operador,Não,Alta,185
+1430,1724,Recebimento,2026-02-09 23:39:00,Noite,Etiqueta divergente,Não,Alta,115
+1431,1724,Separação,2026-02-09 23:00:00,Noite,Ajuste de estoque,Não,Média,32
+1432,1724,Conferência,2026-02-09 23:02:00,Noite,Falha de scanner,Não,Média,129
+1433,1728,Conferência,2026-02-04 12:17:00,Manhã,Falha de scanner,Não,Média,11
+1434,1728,Recebimento,2026-02-04 09:52:00,Manhã,Pedido incompleto,Sim,Alta,34
+1435,1728,Recebimento,2026-02-04 09:34:00,Manhã,Pedido incompleto,Não,Média,18
+1436,1729,Separação,2026-05-21 09:44:00,Manhã,Falha de WMS,Não,Média,56
+1437,1729,Separação,2026-05-21 09:03:00,Manhã,Falta de operador,Sim,Baixa,30
+1438,1729,Conferência,2026-05-21 08:45:00,Manhã,Falha de scanner,Não,Alta,117
+1439,1731,Separação,2026-01-19 01:52:00,Noite,Falha de WMS,Sim,Alta,163
+1440,1731,Separação,2026-01-19 00:44:00,Noite,Separação incorreta,Sim,Média,39
+1441,1731,Conferência,2026-01-19 02:32:00,Noite,Falha de scanner,Não,Baixa,118
+1442,1734,Conferência,2026-06-29 00:27:00,Noite,Pedido com divergência,Não,Alta,107
+1443,1735,Conferência,2026-01-10 17:43:00,Tarde,Atraso de qualidade,Não,Média,22
+1444,1735,Separação,2026-01-10 18:22:00,Tarde,Ajuste de estoque,Não,Média,15
+1445,1736,Carregamento,2026-05-16 13:22:00,Manhã,Falta de caminhão,Não,Alta,87
+1446,1738,Carregamento,2026-05-28 00:31:00,Noite,Atraso de roteirização,Não,Média,37
+1447,1738,Recebimento,2026-05-28 00:14:00,Noite,Atraso no recebimento,Sim,Média,22
+1448,1741,Separação,2026-01-08 19:28:00,Tarde,Falha de WMS,Não,Média,39
+1449,1741,Recebimento,2026-01-08 21:18:00,Tarde,Pedido incompleto,Não,Média,63
+1450,1741,Separação,2026-01-08 20:06:00,Tarde,Falta de operador,Não,Média,82
+1451,1744,Conferência,2026-03-10 20:38:00,Tarde,Atraso de qualidade,Sim,Média,39
+1452,1744,Recebimento,2026-03-10 21:29:00,Tarde,Falta de operador,Não,Média,92
+1453,1745,Separação,2026-02-15 06:06:00,Manhã,Falta de operador,Não,Média,33
+1454,1753,Expedição,2026-06-28 06:16:00,Manhã,Ponto de saída congestionado,Sim,Média,71
+1455,1753,Expedição,2026-06-28 06:17:00,Manhã,Carregamento fora do horário,Sim,Baixa,43
+1456,1753,Recebimento,2026-06-28 04:21:00,Noite,Etiqueta divergente,Não,Baixa,67
+1457,1754,Recebimento,2026-06-16 02:29:00,Noite,Falta de operador,Sim,Baixa,21
+1458,1759,Recebimento,2026-02-26 06:33:00,Manhã,Etiqueta divergente,Não,Alta,40
+1459,1759,Separação,2026-02-26 07:27:00,Manhã,Separação incorreta,Não,Alta,43
+1460,1759,Conferência,2026-02-26 06:53:00,Manhã,Atraso de qualidade,Não,Média,38
+1461,1760,Conferência,2026-06-15 20:08:00,Tarde,Conferência pendente,Sim,Baixa,45
+1462,1760,Conferência,2026-06-15 20:59:00,Tarde,Pedido com divergência,Não,Média,22
+1463,1760,Conferência,2026-06-15 20:00:00,Tarde,Pedido com divergência,Não,Alta,11
+1464,1764,Recebimento,2026-06-22 22:01:00,Noite,Falta de operador,Não,Média,36
+1465,1764,Separação,2026-06-22 23:13:00,Noite,Falta de operador,Não,Alta,63
+1466,1767,Separação,2026-04-17 03:58:00,Noite,Falta de operador,Sim,Média,115
+1467,1767,Separação,2026-04-17 04:21:00,Noite,Ajuste de estoque,Sim,Média,64
+1468,1771,Carregamento,2026-01-31 06:35:00,Manhã,Falha operacional,Não,Média,35
+1469,1771,Conferência,2026-01-31 04:02:00,Noite,Atraso de qualidade,Sim,Média,62
+1470,1771,Recebimento,2026-01-31 05:56:00,Noite,Falta de operador,Sim,Alta,54
+1471,1772,Recebimento,2026-03-27 08:15:00,Manhã,Falta de operador,Não,Baixa,71
+1472,1780,Separação,2026-01-07 21:28:00,Tarde,Ajuste de estoque,Sim,Baixa,64
+1473,1781,Separação,2026-05-02 03:19:00,Noite,Falha de WMS,Sim,Média,163
+1474,1783,Carregamento,2026-06-06 16:30:00,Tarde,Falha de WMS,Não,Média,36
+1475,1783,Expedição,2026-06-06 16:05:00,Tarde,Falha de documentação,Não,Alta,45
+1476,1784,Recebimento,2026-02-06 01:18:00,Noite,Atraso no recebimento,Não,Baixa,92
+1477,1786,Recebimento,2026-03-20 09:26:00,Manhã,Atraso no recebimento,Não,Alta,57
+1478,1786,Separação,2026-03-20 09:26:00,Manhã,Ajuste de estoque,Não,Alta,75
+1479,1787,Carregamento,2026-02-06 02:13:00,Noite,Atraso de roteirização,Não,Alta,22
+1480,1787,Separação,2026-02-06 04:04:00,Noite,Falta de operador,Não,Média,26
+1481,1791,Separação,2026-02-03 23:47:00,Noite,Ajuste de estoque,Sim,Média,90
+1482,1791,Separação,2026-02-03 23:59:00,Noite,Falha de WMS,Sim,Alta,130
+1483,1794,Separação,2026-01-29 06:56:00,Manhã,Falha de WMS,Não,Média,176
+1484,1794,Conferência,2026-01-29 06:48:00,Manhã,Falha de scanner,Não,Alta,147
+1485,1794,Separação,2026-01-29 05:38:00,Noite,Falha de WMS,Não,Alta,164
+1486,1799,Conferência,2026-04-17 11:39:00,Manhã,Pedido com divergência,Não,Baixa,33
+1487,1800,Separação,2026-01-26 20:17:00,Tarde,Falta de operador,Sim,Média,34
+1488,1800,Expedição,2026-01-26 21:27:00,Tarde,Carregamento fora do horário,Não,Baixa,94
